@@ -1,9 +1,9 @@
 var class_game_canvas_1_1_game_base =
 [
-    [ "Calc", "class_game_canvas_1_1_game_base.html#a842c552731ab5b5d29208b5f0260065d", null ],
-    [ "Draw", "class_game_canvas_1_1_game_base.html#a29bde5b2420e7f67eb21d22ccc7fc6a1", null ],
-    [ "Final", "class_game_canvas_1_1_game_base.html#a54de3ff295c5ed8881dbedf19673b9a0", null ],
-    [ "Pause", "class_game_canvas_1_1_game_base.html#a0038cde76b120a39ed014ccfc007cfa9", null ],
-    [ "Start", "class_game_canvas_1_1_game_base.html#a2a85b3bc408c628593c902f2c8e88f8c", null ],
+    [ "Calc", "class_game_canvas_1_1_game_base.html#acce15a0f14259d11a2679c750ebbe5d4", null ],
+    [ "Draw", "class_game_canvas_1_1_game_base.html#a5f02608e5321ccf91243fc6b35c33983", null ],
+    [ "Final", "class_game_canvas_1_1_game_base.html#aec4cb5fe7b7ab3755a2de959a7743761", null ],
+    [ "Pause", "class_game_canvas_1_1_game_base.html#afb66567ddcc832c2ba424054bd42486f", null ],
+    [ "Start", "class_game_canvas_1_1_game_base.html#ade59be4069a3e7e326915bb0a2e55cdb", null ],
     [ "gc", "class_game_canvas_1_1_game_base.html#a8f8c173b93b33515b894f72e2662bf17", null ]
 ];

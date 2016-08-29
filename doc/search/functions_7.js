@@ -5,5 +5,5 @@ var searchData=
   ['setlinewidth',['SetLineWidth',['../class_game_canvas_1_1_game_canvas.html#a0c782cbc3fe37486ddbfe3d3acdc4a74',1,'GameCanvas::GameCanvas']]],
   ['setresolution',['SetResolution',['../class_game_canvas_1_1_game_canvas.html#a3cce164e936120e2b79b51472e4ec781',1,'GameCanvas::GameCanvas']]],
   ['sin',['Sin',['../class_game_canvas_1_1_game_canvas.html#a3cd02d2e8f68ed64caacc71ebcc0f5a6',1,'GameCanvas::GameCanvas']]],
-  ['start',['Start',['../class_game_canvas_1_1_game_base.html#a2a85b3bc408c628593c902f2c8e88f8c',1,'GameCanvas::GameBase']]]
+  ['start',['Start',['../class_game_canvas_1_1_game_base.html#ade59be4069a3e7e326915bb0a2e55cdb',1,'GameCanvas::GameBase']]]
 ];
