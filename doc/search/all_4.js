@@ -1,8 +1,13 @@
 var searchData=
 [
-  ['fillcircle',['FillCircle',['../class_game_canvas_1_1_game_canvas.html#af30b0d1765d81b7f6464f9f740e69081',1,'GameCanvas::GameCanvas']]],
-  ['fillrect',['FillRect',['../class_game_canvas_1_1_game_canvas.html#acb92d20aa74fb48d85f3b57cd5d8a437',1,'GameCanvas::GameCanvas']]],
-  ['fillrotatedrect',['FillRotatedRect',['../class_game_canvas_1_1_game_canvas.html#a3a1754a0deb0953c1e7cd02b136535b8',1,'GameCanvas::GameCanvas']]],
-  ['final',['Final',['../class_game_canvas_1_1_game_base.html#aec4cb5fe7b7ab3755a2de959a7743761',1,'GameCanvas::GameBase']]],
-  ['framerate',['frameRate',['../class_game_canvas_1_1_game_canvas.html#a75ddbeab495e2ec555b87e620843bc81',1,'GameCanvas::GameCanvas']]]
+  ['gamebase',['GameBase',['../class_game_canvas_1_1_game_base.html',1,'GameCanvas']]],
+  ['gamecanvas',['GameCanvas',['../class_game_canvas_1_1_game_canvas.html',1,'GameCanvas']]],
+  ['gamecanvas',['GameCanvas',['../namespace_game_canvas.html',1,'']]],
+  ['gc',['gc',['../class_game_canvas_1_1_game_base.html#a8f8c173b93b33515b894f72e2662bf17',1,'GameCanvas::GameBase']]],
+  ['getimageheight',['GetImageHeight',['../class_game_canvas_1_1_game_canvas.html#a011c9bcaeba0512500eb6bb3d5bb31db',1,'GameCanvas::GameCanvas']]],
+  ['getimagewidth',['GetImageWidth',['../class_game_canvas_1_1_game_canvas.html#aaf32b350a860feb157310dcc9f12923a',1,'GameCanvas::GameCanvas']]],
+  ['gettouchpoint',['GetTouchPoint',['../class_game_canvas_1_1_game_canvas.html#a9805b2e927011865d734fc17bbf1c65b',1,'GameCanvas::GameCanvas']]],
+  ['gyrox',['gyroX',['../class_game_canvas_1_1_game_canvas.html#a487b0649b2d68b6caf1141ff528e0652',1,'GameCanvas::GameCanvas']]],
+  ['gyroy',['gyroY',['../class_game_canvas_1_1_game_canvas.html#a963fe10a119e494eecfb6fd357af2fb1',1,'GameCanvas::GameCanvas']]],
+  ['gyroz',['gyroZ',['../class_game_canvas_1_1_game_canvas.html#a994b298b2a39f0f8eccb331b1274a559',1,'GameCanvas::GameCanvas']]]
 ];
