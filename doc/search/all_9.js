@@ -1,9 +1,13 @@
 var searchData=
 [
-  ['touchcount',['touchCount',['../class_game_canvas_1_1_game_canvas.html#af7577099eab334a596a9cf4e0a0ab520',1,'GameCanvas::GameCanvas']]],
-  ['touchpoint',['touchPoint',['../class_game_canvas_1_1_game_canvas.html#a4bfaea4f7e81b2c22eb0c1054d978c23',1,'GameCanvas::GameCanvas']]],
-  ['touchtimelength',['touchTimeLength',['../class_game_canvas_1_1_game_canvas.html#a7d5c4e64c0dbacacb2cd95dd5434f745',1,'GameCanvas::GameCanvas']]],
-  ['touchx',['touchX',['../class_game_canvas_1_1_game_canvas.html#ab4c623100b0324278bcbec5d721c380e',1,'GameCanvas::GameCanvas']]],
-  ['touchy',['touchY',['../class_game_canvas_1_1_game_canvas.html#a2d04b74b9909e9caac5f51e056a3b68a',1,'GameCanvas::GameCanvas']]],
-  ['trace',['Trace',['../class_game_canvas_1_1_game_canvas.html#a50e2afe1eb224d8a9e3969cf9c6a5a1b',1,'GameCanvas.GameCanvas.Trace(string message)'],['../class_game_canvas_1_1_game_canvas.html#a4e33a62d7bde193e15b4c6fef48302e2',1,'GameCanvas.GameCanvas.Trace(Vector2 value)'],['../class_game_canvas_1_1_game_canvas.html#a46370de6853a3c16d37a306c08f5ae06',1,'GameCanvas.GameCanvas.Trace(IComparable value)'],['../class_game_canvas_1_1_game_canvas.html#a19fabd65e58748bd624b9203d2694927',1,'GameCanvas.GameCanvas.Trace(bool value)']]]
+  ['screenheight',['screenHeight',['../class_game_canvas_1_1_game_canvas.html#a8d759701fe0b65909bf97ed6bc2040fc',1,'GameCanvas::GameCanvas']]],
+  ['screenwidth',['screenWidth',['../class_game_canvas_1_1_game_canvas.html#a229cc13ac9ee5567203c26068dcf6675',1,'GameCanvas::GameCanvas']]],
+  ['setcolor',['SetColor',['../class_game_canvas_1_1_game_canvas.html#a05c60575c2a84708392b11b152f730b1',1,'GameCanvas.GameCanvas.SetColor(Color color)'],['../class_game_canvas_1_1_game_canvas.html#ade876f50b5bd9279148586da2e239fb8',1,'GameCanvas.GameCanvas.SetColor(float red, float green, float blue, float alpha=1f)']]],
+  ['setcolorhsv',['SetColorHSV',['../class_game_canvas_1_1_game_canvas.html#a8d7475232c06ed88efce27e00e5c798d',1,'GameCanvas::GameCanvas']]],
+  ['setlinewidth',['SetLineWidth',['../class_game_canvas_1_1_game_canvas.html#a0c782cbc3fe37486ddbfe3d3acdc4a74',1,'GameCanvas::GameCanvas']]],
+  ['setresolution',['SetResolution',['../class_game_canvas_1_1_game_canvas.html#a3cce164e936120e2b79b51472e4ec781',1,'GameCanvas::GameCanvas']]],
+  ['sin',['Sin',['../class_game_canvas_1_1_game_canvas.html#a3cd02d2e8f68ed64caacc71ebcc0f5a6',1,'GameCanvas::GameCanvas']]],
+  ['singletonmonobehaviour',['SingletonMonoBehaviour',['../class_game_canvas_1_1_singleton_mono_behaviour.html',1,'GameCanvas']]],
+  ['singletonmonobehaviour_3c_20gamecanvas_20_3e',['SingletonMonoBehaviour&lt; GameCanvas &gt;',['../class_game_canvas_1_1_singleton_mono_behaviour.html',1,'GameCanvas']]],
+  ['start',['Start',['../class_game_canvas_1_1_game_base.html#ade59be4069a3e7e326915bb0a2e55cdb',1,'GameCanvas::GameBase']]]
 ];

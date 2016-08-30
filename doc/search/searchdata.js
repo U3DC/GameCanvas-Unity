@@ -1,11 +1,11 @@
 var indexSectionsWithContent =
 {
-  0: "acdfgiprst",
+  0: "acdefgiprst",
   1: "gs",
   2: "g",
   3: "acdfgprst",
   4: "g",
-  5: "afipst"
+  5: "aefgipst"
 };
 
 var indexSectionNames =

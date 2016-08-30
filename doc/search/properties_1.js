@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['framerate',['frameRate',['../class_game_canvas_1_1_game_canvas.html#a75ddbeab495e2ec555b87e620843bc81',1,'GameCanvas::GameCanvas']]]
+  ['enabledgyro',['enabledGyro',['../class_game_canvas_1_1_game_canvas.html#a32e20d54f28e2b7801822b9d99c7e317',1,'GameCanvas::GameCanvas']]]
 ];

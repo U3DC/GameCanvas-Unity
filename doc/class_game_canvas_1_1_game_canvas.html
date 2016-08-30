@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">GameCanvas for Unity
-   &#160;<span id="projectnumber">0.1.1</span>
+   &#160;<span id="projectnumber">0.1.2</span>
    </div>
   </td>
  </tr>
@@ -299,6 +299,18 @@ GameCanvas.GameCanvas の継承関係図</div>
 <tr class="memitem:af4552e3511e7dafe7e6fa982a0940ebe"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#af4552e3511e7dafe7e6fa982a0940ebe">acceZ</a><code> [get]</code></td></tr>
 <tr class="memdesc:af4552e3511e7dafe7e6fa982a0940ebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">加速度センサーのZ軸の値  <a href="#af4552e3511e7dafe7e6fa982a0940ebe">[詳解]</a><br /></td></tr>
 <tr class="separator:af4552e3511e7dafe7e6fa982a0940ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32e20d54f28e2b7801822b9d99c7e317"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a32e20d54f28e2b7801822b9d99c7e317">enabledGyro</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a32e20d54f28e2b7801822b9d99c7e317"><td class="mdescLeft">&#160;</td><td class="mdescRight">ジャイロスコープが有効かどうか  <a href="#a32e20d54f28e2b7801822b9d99c7e317">[詳解]</a><br /></td></tr>
+<tr class="separator:a32e20d54f28e2b7801822b9d99c7e317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a487b0649b2d68b6caf1141ff528e0652"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a487b0649b2d68b6caf1141ff528e0652">gyroX</a><code> [get]</code></td></tr>
+<tr class="memdesc:a487b0649b2d68b6caf1141ff528e0652"><td class="mdescLeft">&#160;</td><td class="mdescRight">ジャイロスコープで測定されたX軸の回転率  <a href="#a487b0649b2d68b6caf1141ff528e0652">[詳解]</a><br /></td></tr>
+<tr class="separator:a487b0649b2d68b6caf1141ff528e0652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a963fe10a119e494eecfb6fd357af2fb1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a963fe10a119e494eecfb6fd357af2fb1">gyroY</a><code> [get]</code></td></tr>
+<tr class="memdesc:a963fe10a119e494eecfb6fd357af2fb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">ジャイロスコープで測定されたY軸の回転率  <a href="#a963fe10a119e494eecfb6fd357af2fb1">[詳解]</a><br /></td></tr>
+<tr class="separator:a963fe10a119e494eecfb6fd357af2fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a994b298b2a39f0f8eccb331b1274a559"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a994b298b2a39f0f8eccb331b1274a559">gyroZ</a><code> [get]</code></td></tr>
+<tr class="memdesc:a994b298b2a39f0f8eccb331b1274a559"><td class="mdescLeft">&#160;</td><td class="mdescRight">ジャイロスコープで測定されたZ軸の回転率  <a href="#a994b298b2a39f0f8eccb331b1274a559">[詳解]</a><br /></td></tr>
+<tr class="separator:a994b298b2a39f0f8eccb331b1274a559"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebdc451f03d8e376805965b907f08b43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aebdc451f03d8e376805965b907f08b43">isDebug</a><code> [get]</code></td></tr>
 <tr class="memdesc:aebdc451f03d8e376805965b907f08b43"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバッグ環境あるいはデバッグビルドで実行されている場合に真を返します  <a href="#aebdc451f03d8e376805965b907f08b43">[詳解]</a><br /></td></tr>
 <tr class="separator:aebdc451f03d8e376805965b907f08b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1663,6 +1675,28 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
+<a class="anchor" id="a32e20d54f28e2b7801822b9d99c7e317"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameCanvas.GameCanvas.enabledGyro</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ジャイロスコープが有効かどうか </p>
+
+</div>
+</div>
 <a class="anchor" id="a75ddbeab495e2ec555b87e620843bc81"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1682,6 +1716,72 @@ GameCanvas.GameCanvas の継承関係図</div>
 </div><div class="memdoc">
 
 <p>FPS（1秒あたりのフレーム更新回数） </p>
+
+</div>
+</div>
+<a class="anchor" id="a487b0649b2d68b6caf1141ff528e0652"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GameCanvas.GameCanvas.gyroX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ジャイロスコープで測定されたX軸の回転率 </p>
+
+</div>
+</div>
+<a class="anchor" id="a963fe10a119e494eecfb6fd357af2fb1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GameCanvas.GameCanvas.gyroY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ジャイロスコープで測定されたY軸の回転率 </p>
+
+</div>
+</div>
+<a class="anchor" id="a994b298b2a39f0f8eccb331b1274a559"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GameCanvas.GameCanvas.gyroZ</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ジャイロスコープで測定されたZ軸の回転率 </p>
 
 </div>
 </div>
