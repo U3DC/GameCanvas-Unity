@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">GameCanvas for Unity
-   &#160;<span id="projectnumber">0.1.3</span>
+   &#160;<span id="projectnumber">0.2.0</span>
    </div>
   </td>
  </tr>
@@ -128,12 +128,144 @@ GameCanvas.GameCanvas の継承関係図</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 公開メンバ関数</h2></td></tr>
-<tr class="memitem:aaf32b350a860feb157310dcc9f12923a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aaf32b350a860feb157310dcc9f12923a">GetImageWidth</a> (int id)</td></tr>
-<tr class="memdesc:aaf32b350a860feb157310dcc9f12923a"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された画像の横幅を返します。画像が見つからない場合 0 を返します  <a href="#aaf32b350a860feb157310dcc9f12923a">[詳解]</a><br /></td></tr>
-<tr class="separator:aaf32b350a860feb157310dcc9f12923a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15b2800d7b69bd04b43494f561df0e04"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a15b2800d7b69bd04b43494f561df0e04">Atan2</a> (float x, float y)</td></tr>
+<tr class="memdesc:a15b2800d7b69bd04b43494f561df0e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">atan2 あるいは ベクトルの角度を求めます  <a href="#a15b2800d7b69bd04b43494f561df0e04">[詳解]</a><br /></td></tr>
+<tr class="separator:a15b2800d7b69bd04b43494f561df0e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3e1e121341e250a62e64302c9ab9e16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ae3e1e121341e250a62e64302c9ab9e16">CheckHitCircle</a> (float x1, float y1, float r1, float x2, float y2, float r2)</td></tr>
+<tr class="memdesc:ae3e1e121341e250a62e64302c9ab9e16"><td class="mdescLeft">&#160;</td><td class="mdescRight">2つの円が衝突しているかどうかを調べます  <a href="#ae3e1e121341e250a62e64302c9ab9e16">[詳解]</a><br /></td></tr>
+<tr class="separator:ae3e1e121341e250a62e64302c9ab9e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab01a4fdaecf3ac44cf57b164e5d2e43c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ab01a4fdaecf3ac44cf57b164e5d2e43c">CheckHitImage</a> (int img1, float x1, float y1, int img2, float x2, float y2)</td></tr>
+<tr class="memdesc:ab01a4fdaecf3ac44cf57b164e5d2e43c"><td class="mdescLeft">&#160;</td><td class="mdescRight">2つの画像が衝突しているかどうかを調べます  <a href="#ab01a4fdaecf3ac44cf57b164e5d2e43c">[詳解]</a><br /></td></tr>
+<tr class="separator:ab01a4fdaecf3ac44cf57b164e5d2e43c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab403f742b18ab35dc8792ec1f26c7047"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ab403f742b18ab35dc8792ec1f26c7047">CheckHitRect</a> (float x1, float y1, float w1, float h1, float x2, float y2, float w2, float h2)</td></tr>
+<tr class="memdesc:ab403f742b18ab35dc8792ec1f26c7047"><td class="mdescLeft">&#160;</td><td class="mdescRight">2つの矩形が衝突しているかどうかを調べます  <a href="#ab403f742b18ab35dc8792ec1f26c7047">[詳解]</a><br /></td></tr>
+<tr class="separator:ab403f742b18ab35dc8792ec1f26c7047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af804c97ce66ec031b80f8965c766d287"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#af804c97ce66ec031b80f8965c766d287">ClearScreen</a> ()</td></tr>
+<tr class="memdesc:af804c97ce66ec031b80f8965c766d287"><td class="mdescLeft">&#160;</td><td class="mdescRight">画面を白で塗りつぶします  <a href="#af804c97ce66ec031b80f8965c766d287">[詳解]</a><br /></td></tr>
+<tr class="separator:af804c97ce66ec031b80f8965c766d287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3286dd0b026a72537e3ee6d0ed3b557"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#af3286dd0b026a72537e3ee6d0ed3b557">Cos</a> (float angle)</td></tr>
+<tr class="memdesc:af3286dd0b026a72537e3ee6d0ed3b557"><td class="mdescLeft">&#160;</td><td class="mdescRight">cosを求めます  <a href="#af3286dd0b026a72537e3ee6d0ed3b557">[詳解]</a><br /></td></tr>
+<tr class="separator:af3286dd0b026a72537e3ee6d0ed3b557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9163079c4efc3e9b4e19d94310738cc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ad9163079c4efc3e9b4e19d94310738cc">Deg2Rad</a> (float degree)</td></tr>
+<tr class="memdesc:ad9163079c4efc3e9b4e19d94310738cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">角度を度数法から弧度法に変換します  <a href="#ad9163079c4efc3e9b4e19d94310738cc">[詳解]</a><br /></td></tr>
+<tr class="separator:ad9163079c4efc3e9b4e19d94310738cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebfd97be260ea520e72747a1591601f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aebfd97be260ea520e72747a1591601f9">DeleteData</a> (string key)</td></tr>
+<tr class="memdesc:aebfd97be260ea520e72747a1591601f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">セーブデータから指定されたキーのデータを削除します  <a href="#aebfd97be260ea520e72747a1591601f9">[詳解]</a><br /></td></tr>
+<tr class="separator:aebfd97be260ea520e72747a1591601f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8871ff15a8cfc9de344259b7ac75580"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ae8871ff15a8cfc9de344259b7ac75580">DeleteDataAll</a> ()</td></tr>
+<tr class="memdesc:ae8871ff15a8cfc9de344259b7ac75580"><td class="mdescLeft">&#160;</td><td class="mdescRight">セーブデータを空にします  <a href="#ae8871ff15a8cfc9de344259b7ac75580">[詳解]</a><br /></td></tr>
+<tr class="separator:ae8871ff15a8cfc9de344259b7ac75580"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbac1de0ab6a36fa1d96b87ce37ef235"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#afbac1de0ab6a36fa1d96b87ce37ef235">DrawCircle</a> (float x, float y, int radius)</td></tr>
+<tr class="memdesc:afbac1de0ab6a36fa1d96b87ce37ef235"><td class="mdescLeft">&#160;</td><td class="mdescRight">中抜きの円を描画します  <a href="#afbac1de0ab6a36fa1d96b87ce37ef235">[詳解]</a><br /></td></tr>
+<tr class="separator:afbac1de0ab6a36fa1d96b87ce37ef235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8276974bc4f666214d90de8b34659e1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a8276974bc4f666214d90de8b34659e1d">DrawClippedImage</a> (int id, float x, float y, float clipTop, float clipRight, float clipBottom, float clipLeft)</td></tr>
+<tr class="memdesc:a8276974bc4f666214d90de8b34659e1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">一部分を切り取った画像を描画します  <a href="#a8276974bc4f666214d90de8b34659e1d">[詳解]</a><br /></td></tr>
+<tr class="separator:a8276974bc4f666214d90de8b34659e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acca6b6bf2bc7bd6214f8ad731222736e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#acca6b6bf2bc7bd6214f8ad731222736e">DrawClippedImageSRT</a> (int id, float x, float y, float clipTop, float clipRight, float clipBottom, float clipLeft, float scaleH, float scaleV, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
+<tr class="memdesc:acca6b6bf2bc7bd6214f8ad731222736e"><td class="mdescLeft">&#160;</td><td class="mdescRight">一部分を切り取った画像を、位置・拡縮率・回転角度を指定して描画します  <a href="#acca6b6bf2bc7bd6214f8ad731222736e">[詳解]</a><br /></td></tr>
+<tr class="separator:acca6b6bf2bc7bd6214f8ad731222736e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a165744f96f93b9d569e7bba2ec2e9459"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a165744f96f93b9d569e7bba2ec2e9459">DrawImage</a> (int id, float x, float y)</td></tr>
+<tr class="memdesc:a165744f96f93b9d569e7bba2ec2e9459"><td class="mdescLeft">&#160;</td><td class="mdescRight">画像を描画します  <a href="#a165744f96f93b9d569e7bba2ec2e9459">[詳解]</a><br /></td></tr>
+<tr class="separator:a165744f96f93b9d569e7bba2ec2e9459"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50c9f2b3ea50154b9b0e48379ee740a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a50c9f2b3ea50154b9b0e48379ee740a4">DrawImageSRT</a> (int id, float x, float y, float scaleH, float scaleV, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
+<tr class="memdesc:a50c9f2b3ea50154b9b0e48379ee740a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">画像を位置・拡縮率・回転角度を指定して描画します  <a href="#a50c9f2b3ea50154b9b0e48379ee740a4">[詳解]</a><br /></td></tr>
+<tr class="separator:a50c9f2b3ea50154b9b0e48379ee740a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00c1c12a142ed8eed5c64991b73d0b82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a00c1c12a142ed8eed5c64991b73d0b82">DrawLine</a> (float startX, float startY, float endX, float endY)</td></tr>
+<tr class="memdesc:a00c1c12a142ed8eed5c64991b73d0b82"><td class="mdescLeft">&#160;</td><td class="mdescRight">線分を描画します  <a href="#a00c1c12a142ed8eed5c64991b73d0b82">[詳解]</a><br /></td></tr>
+<tr class="separator:a00c1c12a142ed8eed5c64991b73d0b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2798342e5e7d8f161d80bae8334d7fd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a2798342e5e7d8f161d80bae8334d7fd1">DrawRect</a> (float x, float y, float width, float height)</td></tr>
+<tr class="memdesc:a2798342e5e7d8f161d80bae8334d7fd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">中抜きの長方形を描画します  <a href="#a2798342e5e7d8f161d80bae8334d7fd1">[詳解]</a><br /></td></tr>
+<tr class="separator:a2798342e5e7d8f161d80bae8334d7fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0cab199fdff446f5ce8e391a6ecaa23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ae0cab199fdff446f5ce8e391a6ecaa23">DrawRotatedImage</a> (int id, float x, float y, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
+<tr class="memdesc:ae0cab199fdff446f5ce8e391a6ecaa23"><td class="mdescLeft">&#160;</td><td class="mdescRight">回転させた画像を描画します  <a href="#ae0cab199fdff446f5ce8e391a6ecaa23">[詳解]</a><br /></td></tr>
+<tr class="separator:ae0cab199fdff446f5ce8e391a6ecaa23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa45b7e66097c31ac498f701f1b5fb124"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aa45b7e66097c31ac498f701f1b5fb124">DrawRotatedRect</a> (float x, float y, float width, float height, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
+<tr class="memdesc:aa45b7e66097c31ac498f701f1b5fb124"><td class="mdescLeft">&#160;</td><td class="mdescRight">中抜きの回転させた長方形を描画します  <a href="#aa45b7e66097c31ac498f701f1b5fb124">[詳解]</a><br /></td></tr>
+<tr class="separator:aa45b7e66097c31ac498f701f1b5fb124"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac38cec5deecbb1e1e6bd7ca292050fff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ac38cec5deecbb1e1e6bd7ca292050fff">DrawScaledImage</a> (int id, float x, float y, float scaleH, float scaleV)</td></tr>
+<tr class="memdesc:ac38cec5deecbb1e1e6bd7ca292050fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">大きさを変えた画像を描画します  <a href="#ac38cec5deecbb1e1e6bd7ca292050fff">[詳解]</a><br /></td></tr>
+<tr class="separator:ac38cec5deecbb1e1e6bd7ca292050fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5efc1b2b995e9236589b529e6d7a85db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a5efc1b2b995e9236589b529e6d7a85db">ExitApp</a> ()</td></tr>
+<tr class="memdesc:a5efc1b2b995e9236589b529e6d7a85db"><td class="mdescLeft">&#160;</td><td class="mdescRight">アプリケーションを終了します  <a href="#a5efc1b2b995e9236589b529e6d7a85db">[詳解]</a><br /></td></tr>
+<tr class="separator:a5efc1b2b995e9236589b529e6d7a85db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af30b0d1765d81b7f6464f9f740e69081"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#af30b0d1765d81b7f6464f9f740e69081">FillCircle</a> (float x, float y, int radius)</td></tr>
+<tr class="memdesc:af30b0d1765d81b7f6464f9f740e69081"><td class="mdescLeft">&#160;</td><td class="mdescRight">塗りつぶしの円を描画します  <a href="#af30b0d1765d81b7f6464f9f740e69081">[詳解]</a><br /></td></tr>
+<tr class="separator:af30b0d1765d81b7f6464f9f740e69081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb92d20aa74fb48d85f3b57cd5d8a437"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#acb92d20aa74fb48d85f3b57cd5d8a437">FillRect</a> (float x, float y, float width, float height)</td></tr>
+<tr class="memdesc:acb92d20aa74fb48d85f3b57cd5d8a437"><td class="mdescLeft">&#160;</td><td class="mdescRight">塗りつぶしの長方形を描画します  <a href="#acb92d20aa74fb48d85f3b57cd5d8a437">[詳解]</a><br /></td></tr>
+<tr class="separator:acb92d20aa74fb48d85f3b57cd5d8a437"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a1754a0deb0953c1e7cd02b136535b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a3a1754a0deb0953c1e7cd02b136535b8">FillRotatedRect</a> (float x, float y, float width, float height, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
+<tr class="memdesc:a3a1754a0deb0953c1e7cd02b136535b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">塗りつぶしの回転させた長方形を描画します  <a href="#a3a1754a0deb0953c1e7cd02b136535b8">[詳解]</a><br /></td></tr>
+<tr class="separator:a3a1754a0deb0953c1e7cd02b136535b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19db9cf3169d02e6a433c8a849cddc55"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a19db9cf3169d02e6a433c8a849cddc55">GetDay</a> ()</td></tr>
+<tr class="memdesc:a19db9cf3169d02e6a433c8a849cddc55"><td class="mdescLeft">&#160;</td><td class="mdescRight">今日の日付を 1～31 の数値で返します  <a href="#a19db9cf3169d02e6a433c8a849cddc55">[詳解]</a><br /></td></tr>
+<tr class="separator:a19db9cf3169d02e6a433c8a849cddc55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6c50a442be845469f54ade1dacc71f6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ae6c50a442be845469f54ade1dacc71f6">GetDayOfWeek</a> ()</td></tr>
+<tr class="memdesc:ae6c50a442be845469f54ade1dacc71f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">今日の曜日を 0～6 の数値で返します。0が日曜日、6が土曜日です  <a href="#ae6c50a442be845469f54ade1dacc71f6">[詳解]</a><br /></td></tr>
+<tr class="separator:ae6c50a442be845469f54ade1dacc71f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25ae6532c079812e5dcfa39beb3b0235"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a25ae6532c079812e5dcfa39beb3b0235">GetDayOfWeekKanji</a> ()</td></tr>
+<tr class="memdesc:a25ae6532c079812e5dcfa39beb3b0235"><td class="mdescLeft">&#160;</td><td class="mdescRight">今日の曜日を 月火水木金土日 の漢字で返します  <a href="#a25ae6532c079812e5dcfa39beb3b0235">[詳解]</a><br /></td></tr>
+<tr class="separator:a25ae6532c079812e5dcfa39beb3b0235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c66758f29e30ce493cdee0ae90a3c79"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a1c66758f29e30ce493cdee0ae90a3c79">GetHour</a> ()</td></tr>
+<tr class="memdesc:a1c66758f29e30ce493cdee0ae90a3c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">いま何時かを 0～23 の数値で返します  <a href="#a1c66758f29e30ce493cdee0ae90a3c79">[詳解]</a><br /></td></tr>
+<tr class="separator:a1c66758f29e30ce493cdee0ae90a3c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a011c9bcaeba0512500eb6bb3d5bb31db"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a011c9bcaeba0512500eb6bb3d5bb31db">GetImageHeight</a> (int id)</td></tr>
 <tr class="memdesc:a011c9bcaeba0512500eb6bb3d5bb31db"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された画像の高さを返します。画像が見つからない場合 0 を返します  <a href="#a011c9bcaeba0512500eb6bb3d5bb31db">[詳解]</a><br /></td></tr>
 <tr class="separator:a011c9bcaeba0512500eb6bb3d5bb31db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf32b350a860feb157310dcc9f12923a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aaf32b350a860feb157310dcc9f12923a">GetImageWidth</a> (int id)</td></tr>
+<tr class="memdesc:aaf32b350a860feb157310dcc9f12923a"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された画像の横幅を返します。画像が見つからない場合 0 を返します  <a href="#aaf32b350a860feb157310dcc9f12923a">[詳解]</a><br /></td></tr>
+<tr class="separator:aaf32b350a860feb157310dcc9f12923a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10ad6c227e525861693ea5af28fdc985"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a10ad6c227e525861693ea5af28fdc985">GetIsKeyPress</a> (string key)</td></tr>
+<tr class="memdesc:a10ad6c227e525861693ea5af28fdc985"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したキーが押されているかどうか。この関数は isDevelop が真の時のみ動作します  <a href="#a10ad6c227e525861693ea5af28fdc985">[詳解]</a><br /></td></tr>
+<tr class="separator:a10ad6c227e525861693ea5af28fdc985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b373b7e926e4fe300307b73026d8295"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a8b373b7e926e4fe300307b73026d8295">GetIsKeyPushed</a> (string key)</td></tr>
+<tr class="memdesc:a8b373b7e926e4fe300307b73026d8295"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したキーが押された瞬間かどうか。この関数は isDevelop が真の時のみ動作します  <a href="#a8b373b7e926e4fe300307b73026d8295">[詳解]</a><br /></td></tr>
+<tr class="separator:a8b373b7e926e4fe300307b73026d8295"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34b7af40e69416f17915d167be2965de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a34b7af40e69416f17915d167be2965de">GetIsKeyReleased</a> (string key)</td></tr>
+<tr class="memdesc:a34b7af40e69416f17915d167be2965de"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したキーが離された瞬間かどうか。この関数は isDevelop が真の時のみ動作します  <a href="#a34b7af40e69416f17915d167be2965de">[詳解]</a><br /></td></tr>
+<tr class="separator:a34b7af40e69416f17915d167be2965de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b52407356f188cc4299865aa11f1535"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a7b52407356f188cc4299865aa11f1535">GetMilliSecond</a> ()</td></tr>
+<tr class="memdesc:a7b52407356f188cc4299865aa11f1535"><td class="mdescLeft">&#160;</td><td class="mdescRight">いま何ミリ秒かを 0～999 で返します  <a href="#a7b52407356f188cc4299865aa11f1535">[詳解]</a><br /></td></tr>
+<tr class="separator:a7b52407356f188cc4299865aa11f1535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e815a258ce84d4d2240fa68d71a7f1d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a9e815a258ce84d4d2240fa68d71a7f1d">GetMinute</a> ()</td></tr>
+<tr class="memdesc:a9e815a258ce84d4d2240fa68d71a7f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">いま何分かを 0～59 の数値で返します  <a href="#a9e815a258ce84d4d2240fa68d71a7f1d">[詳解]</a><br /></td></tr>
+<tr class="separator:a9e815a258ce84d4d2240fa68d71a7f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a382474fbf505b2a97719ee671870543d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a382474fbf505b2a97719ee671870543d">GetMonth</a> ()</td></tr>
+<tr class="memdesc:a382474fbf505b2a97719ee671870543d"><td class="mdescLeft">&#160;</td><td class="mdescRight">今日が何月かを 1～12 の数値で返します  <a href="#a382474fbf505b2a97719ee671870543d">[詳解]</a><br /></td></tr>
+<tr class="separator:a382474fbf505b2a97719ee671870543d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a9d26d6402a463837209b9c8186e38b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a2a9d26d6402a463837209b9c8186e38b">GetSecond</a> ()</td></tr>
+<tr class="memdesc:a2a9d26d6402a463837209b9c8186e38b"><td class="mdescLeft">&#160;</td><td class="mdescRight">いま何秒かを 0～59 の数値で返します  <a href="#a2a9d26d6402a463837209b9c8186e38b">[詳解]</a><br /></td></tr>
+<tr class="separator:a2a9d26d6402a463837209b9c8186e38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9805b2e927011865d734fc17bbf1c65b"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a9805b2e927011865d734fc17bbf1c65b">GetTouchPoint</a> (int fingerId)</td></tr>
+<tr class="memdesc:a9805b2e927011865d734fc17bbf1c65b"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチの詳細情報。タッチされていないときは(-1, -1)を返します  <a href="#a9805b2e927011865d734fc17bbf1c65b">[詳解]</a><br /></td></tr>
+<tr class="separator:a9805b2e927011865d734fc17bbf1c65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab847ef1c566fd74507c08f7fea57e311"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ab847ef1c566fd74507c08f7fea57e311">GetYear</a> ()</td></tr>
+<tr class="memdesc:ab847ef1c566fd74507c08f7fea57e311"><td class="mdescLeft">&#160;</td><td class="mdescRight">今日が西暦何年かを 0～9999 の数値で返します  <a href="#ab847ef1c566fd74507c08f7fea57e311">[詳解]</a><br /></td></tr>
+<tr class="separator:ab847ef1c566fd74507c08f7fea57e311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb2dcf234f1f29731c8339a49829a767"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#afb2dcf234f1f29731c8339a49829a767">Load</a> (string key)</td></tr>
+<tr class="memdesc:afb2dcf234f1f29731c8339a49829a767"><td class="mdescLeft">&#160;</td><td class="mdescRight">セーブデータから文字列を取り出します。存在しなかった場合 null を返します  <a href="#afb2dcf234f1f29731c8339a49829a767">[詳解]</a><br /></td></tr>
+<tr class="separator:afb2dcf234f1f29731c8339a49829a767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0648958a59454608d1d6c970b8105ac5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a0648958a59454608d1d6c970b8105ac5">LoadAsInt</a> (string key)</td></tr>
+<tr class="memdesc:a0648958a59454608d1d6c970b8105ac5"><td class="mdescLeft">&#160;</td><td class="mdescRight">セーブデータから整数値を取り出します。存在しなかった場合 0 を返します  <a href="#a0648958a59454608d1d6c970b8105ac5">[詳解]</a><br /></td></tr>
+<tr class="separator:a0648958a59454608d1d6c970b8105ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97d6e7322ba5ca8fc30d9c57403e6892"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a97d6e7322ba5ca8fc30d9c57403e6892">LoadAsNumber</a> (string key)</td></tr>
+<tr class="memdesc:a97d6e7322ba5ca8fc30d9c57403e6892"><td class="mdescLeft">&#160;</td><td class="mdescRight">セーブデータから数値を取り出します。存在しなかった場合 0 を返します  <a href="#a97d6e7322ba5ca8fc30d9c57403e6892">[詳解]</a><br /></td></tr>
+<tr class="separator:a97d6e7322ba5ca8fc30d9c57403e6892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13ebd01abf70ece0e5ff92079ab27d1d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a13ebd01abf70ece0e5ff92079ab27d1d">Rad2Deg</a> (float radian)</td></tr>
+<tr class="memdesc:a13ebd01abf70ece0e5ff92079ab27d1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">角度を弧度法から度数法に変換します  <a href="#a13ebd01abf70ece0e5ff92079ab27d1d">[詳解]</a><br /></td></tr>
+<tr class="separator:a13ebd01abf70ece0e5ff92079ab27d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea46ed574f55b091df2dcf8f1a2afd74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aea46ed574f55b091df2dcf8f1a2afd74">ReadDataByStorage</a> ()</td></tr>
+<tr class="memdesc:aea46ed574f55b091df2dcf8f1a2afd74"><td class="mdescLeft">&#160;</td><td class="mdescRight">ストレージからセーブデータを読み取ります。この関数はゲーム起動時に自動で実行されます  <a href="#aea46ed574f55b091df2dcf8f1a2afd74">[詳解]</a><br /></td></tr>
+<tr class="separator:aea46ed574f55b091df2dcf8f1a2afd74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa885b7b6c79f82d7b2cbc7ec3799bf3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aa885b7b6c79f82d7b2cbc7ec3799bf3b">Save</a> (string key, string value)</td></tr>
+<tr class="memdesc:aa885b7b6c79f82d7b2cbc7ec3799bf3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">セーブデータに文字列を追加します  <a href="#aa885b7b6c79f82d7b2cbc7ec3799bf3b">[詳解]</a><br /></td></tr>
+<tr class="separator:aa885b7b6c79f82d7b2cbc7ec3799bf3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5862b2f0f16d203cd860a0b51e7f233"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ae5862b2f0f16d203cd860a0b51e7f233">SaveAsInt</a> (string key, int value)</td></tr>
+<tr class="memdesc:ae5862b2f0f16d203cd860a0b51e7f233"><td class="mdescLeft">&#160;</td><td class="mdescRight">セーブデータに整数値を追加します  <a href="#ae5862b2f0f16d203cd860a0b51e7f233">[詳解]</a><br /></td></tr>
+<tr class="separator:ae5862b2f0f16d203cd860a0b51e7f233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c076c6cc8f920d52364741a44feffe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a4c076c6cc8f920d52364741a44feffe5">SaveAsNumber</a> (string key, float value)</td></tr>
+<tr class="memdesc:a4c076c6cc8f920d52364741a44feffe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">セーブデータに数値を追加します  <a href="#a4c076c6cc8f920d52364741a44feffe5">[詳解]</a><br /></td></tr>
+<tr class="separator:a4c076c6cc8f920d52364741a44feffe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05c60575c2a84708392b11b152f730b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a05c60575c2a84708392b11b152f730b1">SetColor</a> (Color color)</td></tr>
 <tr class="memdesc:a05c60575c2a84708392b11b152f730b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">DrawString や DrawRect などで用いる色を指定します  <a href="#a05c60575c2a84708392b11b152f730b1">[詳解]</a><br /></td></tr>
 <tr class="separator:a05c60575c2a84708392b11b152f730b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,156 +278,36 @@ GameCanvas.GameCanvas の継承関係図</div>
 <tr class="memitem:a0c782cbc3fe37486ddbfe3d3acdc4a74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a0c782cbc3fe37486ddbfe3d3acdc4a74">SetLineWidth</a> (int lineWidth)</td></tr>
 <tr class="memdesc:a0c782cbc3fe37486ddbfe3d3acdc4a74"><td class="mdescLeft">&#160;</td><td class="mdescRight">DrawRect や DrawCircle などに用いる線の太さを指定します  <a href="#a0c782cbc3fe37486ddbfe3d3acdc4a74">[詳解]</a><br /></td></tr>
 <tr class="separator:a0c782cbc3fe37486ddbfe3d3acdc4a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00c1c12a142ed8eed5c64991b73d0b82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a00c1c12a142ed8eed5c64991b73d0b82">DrawLine</a> (float startX, float startY, float endX, float endY)</td></tr>
-<tr class="memdesc:a00c1c12a142ed8eed5c64991b73d0b82"><td class="mdescLeft">&#160;</td><td class="mdescRight">線分を描画します  <a href="#a00c1c12a142ed8eed5c64991b73d0b82">[詳解]</a><br /></td></tr>
-<tr class="separator:a00c1c12a142ed8eed5c64991b73d0b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbac1de0ab6a36fa1d96b87ce37ef235"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#afbac1de0ab6a36fa1d96b87ce37ef235">DrawCircle</a> (float x, float y, int radius)</td></tr>
-<tr class="memdesc:afbac1de0ab6a36fa1d96b87ce37ef235"><td class="mdescLeft">&#160;</td><td class="mdescRight">中抜きの円を描画します  <a href="#afbac1de0ab6a36fa1d96b87ce37ef235">[詳解]</a><br /></td></tr>
-<tr class="separator:afbac1de0ab6a36fa1d96b87ce37ef235"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2798342e5e7d8f161d80bae8334d7fd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a2798342e5e7d8f161d80bae8334d7fd1">DrawRect</a> (float x, float y, float width, float height)</td></tr>
-<tr class="memdesc:a2798342e5e7d8f161d80bae8334d7fd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">中抜きの長方形を描画します  <a href="#a2798342e5e7d8f161d80bae8334d7fd1">[詳解]</a><br /></td></tr>
-<tr class="separator:a2798342e5e7d8f161d80bae8334d7fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa45b7e66097c31ac498f701f1b5fb124"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aa45b7e66097c31ac498f701f1b5fb124">DrawRotatedRect</a> (float x, float y, float width, float height, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
-<tr class="memdesc:aa45b7e66097c31ac498f701f1b5fb124"><td class="mdescLeft">&#160;</td><td class="mdescRight">中抜きの回転させた長方形を描画します  <a href="#aa45b7e66097c31ac498f701f1b5fb124">[詳解]</a><br /></td></tr>
-<tr class="separator:aa45b7e66097c31ac498f701f1b5fb124"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a165744f96f93b9d569e7bba2ec2e9459"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a165744f96f93b9d569e7bba2ec2e9459">DrawImage</a> (int id, float x, float y)</td></tr>
-<tr class="memdesc:a165744f96f93b9d569e7bba2ec2e9459"><td class="mdescLeft">&#160;</td><td class="mdescRight">画像を描画します  <a href="#a165744f96f93b9d569e7bba2ec2e9459">[詳解]</a><br /></td></tr>
-<tr class="separator:a165744f96f93b9d569e7bba2ec2e9459"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8276974bc4f666214d90de8b34659e1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a8276974bc4f666214d90de8b34659e1d">DrawClippedImage</a> (int id, float x, float y, float clipTop, float clipRight, float clipBottom, float clipLeft)</td></tr>
-<tr class="memdesc:a8276974bc4f666214d90de8b34659e1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">一部分を切り取った画像を描画します  <a href="#a8276974bc4f666214d90de8b34659e1d">[詳解]</a><br /></td></tr>
-<tr class="separator:a8276974bc4f666214d90de8b34659e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac38cec5deecbb1e1e6bd7ca292050fff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ac38cec5deecbb1e1e6bd7ca292050fff">DrawScaledImage</a> (int id, float x, float y, float scaleH, float scaleV)</td></tr>
-<tr class="memdesc:ac38cec5deecbb1e1e6bd7ca292050fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">大きさを変えた画像を描画します  <a href="#ac38cec5deecbb1e1e6bd7ca292050fff">[詳解]</a><br /></td></tr>
-<tr class="separator:ac38cec5deecbb1e1e6bd7ca292050fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0cab199fdff446f5ce8e391a6ecaa23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ae0cab199fdff446f5ce8e391a6ecaa23">DrawRotatedImage</a> (int id, float x, float y, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
-<tr class="memdesc:ae0cab199fdff446f5ce8e391a6ecaa23"><td class="mdescLeft">&#160;</td><td class="mdescRight">回転させた画像を描画します  <a href="#ae0cab199fdff446f5ce8e391a6ecaa23">[詳解]</a><br /></td></tr>
-<tr class="separator:ae0cab199fdff446f5ce8e391a6ecaa23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50c9f2b3ea50154b9b0e48379ee740a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a50c9f2b3ea50154b9b0e48379ee740a4">DrawImageSRT</a> (int id, float x, float y, float scaleH, float scaleV, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
-<tr class="memdesc:a50c9f2b3ea50154b9b0e48379ee740a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">画像を位置・拡縮率・回転角度を指定して描画します  <a href="#a50c9f2b3ea50154b9b0e48379ee740a4">[詳解]</a><br /></td></tr>
-<tr class="separator:a50c9f2b3ea50154b9b0e48379ee740a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acca6b6bf2bc7bd6214f8ad731222736e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#acca6b6bf2bc7bd6214f8ad731222736e">DrawClippedImageSRT</a> (int id, float x, float y, float clipTop, float clipRight, float clipBottom, float clipLeft, float scaleH, float scaleV, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
-<tr class="memdesc:acca6b6bf2bc7bd6214f8ad731222736e"><td class="mdescLeft">&#160;</td><td class="mdescRight">一部分を切り取った画像を、位置・拡縮率・回転角度を指定して描画します  <a href="#acca6b6bf2bc7bd6214f8ad731222736e">[詳解]</a><br /></td></tr>
-<tr class="separator:acca6b6bf2bc7bd6214f8ad731222736e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af30b0d1765d81b7f6464f9f740e69081"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#af30b0d1765d81b7f6464f9f740e69081">FillCircle</a> (float x, float y, int radius)</td></tr>
-<tr class="memdesc:af30b0d1765d81b7f6464f9f740e69081"><td class="mdescLeft">&#160;</td><td class="mdescRight">塗りつぶしの円を描画します  <a href="#af30b0d1765d81b7f6464f9f740e69081">[詳解]</a><br /></td></tr>
-<tr class="separator:af30b0d1765d81b7f6464f9f740e69081"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb92d20aa74fb48d85f3b57cd5d8a437"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#acb92d20aa74fb48d85f3b57cd5d8a437">FillRect</a> (float x, float y, float width, float height)</td></tr>
-<tr class="memdesc:acb92d20aa74fb48d85f3b57cd5d8a437"><td class="mdescLeft">&#160;</td><td class="mdescRight">塗りつぶしの長方形を描画します  <a href="#acb92d20aa74fb48d85f3b57cd5d8a437">[詳解]</a><br /></td></tr>
-<tr class="separator:acb92d20aa74fb48d85f3b57cd5d8a437"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a1754a0deb0953c1e7cd02b136535b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a3a1754a0deb0953c1e7cd02b136535b8">FillRotatedRect</a> (float x, float y, float width, float height, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
-<tr class="memdesc:a3a1754a0deb0953c1e7cd02b136535b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">塗りつぶしの回転させた長方形を描画します  <a href="#a3a1754a0deb0953c1e7cd02b136535b8">[詳解]</a><br /></td></tr>
-<tr class="separator:a3a1754a0deb0953c1e7cd02b136535b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cce164e936120e2b79b51472e4ec781"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a3cce164e936120e2b79b51472e4ec781">SetResolution</a> (int width, int height)</td></tr>
 <tr class="memdesc:a3cce164e936120e2b79b51472e4ec781"><td class="mdescLeft">&#160;</td><td class="mdescRight">ゲームの解像度を設定します  <a href="#a3cce164e936120e2b79b51472e4ec781">[詳解]</a><br /></td></tr>
 <tr class="separator:a3cce164e936120e2b79b51472e4ec781"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af804c97ce66ec031b80f8965c766d287"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#af804c97ce66ec031b80f8965c766d287">ClearScreen</a> ()</td></tr>
-<tr class="memdesc:af804c97ce66ec031b80f8965c766d287"><td class="mdescLeft">&#160;</td><td class="mdescRight">画面を白で塗りつぶします  <a href="#af804c97ce66ec031b80f8965c766d287">[詳解]</a><br /></td></tr>
-<tr class="separator:af804c97ce66ec031b80f8965c766d287"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9805b2e927011865d734fc17bbf1c65b"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a9805b2e927011865d734fc17bbf1c65b">GetTouchPoint</a> (int fingerId)</td></tr>
-<tr class="memdesc:a9805b2e927011865d734fc17bbf1c65b"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチの詳細情報。タッチされていないときは(-1, -1)を返します  <a href="#a9805b2e927011865d734fc17bbf1c65b">[詳解]</a><br /></td></tr>
-<tr class="separator:a9805b2e927011865d734fc17bbf1c65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cd02d2e8f68ed64caacc71ebcc0f5a6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a3cd02d2e8f68ed64caacc71ebcc0f5a6">Sin</a> (float angle)</td></tr>
+<tr class="memdesc:a3cd02d2e8f68ed64caacc71ebcc0f5a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">sinを求めます  <a href="#a3cd02d2e8f68ed64caacc71ebcc0f5a6">[詳解]</a><br /></td></tr>
+<tr class="separator:a3cd02d2e8f68ed64caacc71ebcc0f5a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b7c591431ccea6f60e23a2c7a4a98c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a3b7c591431ccea6f60e23a2c7a4a98c0">StartLocationService</a> ()</td></tr>
 <tr class="memdesc:a3b7c591431ccea6f60e23a2c7a4a98c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">位置情報の測定を開始します。この操作は一般に多くの電力を消費します  <a href="#a3b7c591431ccea6f60e23a2c7a4a98c0">[詳解]</a><br /></td></tr>
 <tr class="separator:a3b7c591431ccea6f60e23a2c7a4a98c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf29f92631db1bab9c77ed665645b1ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#abf29f92631db1bab9c77ed665645b1ca">StopLocationService</a> ()</td></tr>
 <tr class="memdesc:abf29f92631db1bab9c77ed665645b1ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">位置情報の測定を終了します  <a href="#abf29f92631db1bab9c77ed665645b1ca">[詳解]</a><br /></td></tr>
 <tr class="separator:abf29f92631db1bab9c77ed665645b1ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3286dd0b026a72537e3ee6d0ed3b557"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#af3286dd0b026a72537e3ee6d0ed3b557">Cos</a> (float angle)</td></tr>
-<tr class="memdesc:af3286dd0b026a72537e3ee6d0ed3b557"><td class="mdescLeft">&#160;</td><td class="mdescRight">cosを求めます  <a href="#af3286dd0b026a72537e3ee6d0ed3b557">[詳解]</a><br /></td></tr>
-<tr class="separator:af3286dd0b026a72537e3ee6d0ed3b557"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cd02d2e8f68ed64caacc71ebcc0f5a6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a3cd02d2e8f68ed64caacc71ebcc0f5a6">Sin</a> (float angle)</td></tr>
-<tr class="memdesc:a3cd02d2e8f68ed64caacc71ebcc0f5a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">sinを求めます  <a href="#a3cd02d2e8f68ed64caacc71ebcc0f5a6">[詳解]</a><br /></td></tr>
-<tr class="separator:a3cd02d2e8f68ed64caacc71ebcc0f5a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15b2800d7b69bd04b43494f561df0e04"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a15b2800d7b69bd04b43494f561df0e04">Atan2</a> (float x, float y)</td></tr>
-<tr class="memdesc:a15b2800d7b69bd04b43494f561df0e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">atan2 あるいは ベクトルの角度を求めます  <a href="#a15b2800d7b69bd04b43494f561df0e04">[詳解]</a><br /></td></tr>
-<tr class="separator:a15b2800d7b69bd04b43494f561df0e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9163079c4efc3e9b4e19d94310738cc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ad9163079c4efc3e9b4e19d94310738cc">Deg2Rad</a> (float degree)</td></tr>
-<tr class="memdesc:ad9163079c4efc3e9b4e19d94310738cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">角度を度数法から弧度法に変換します  <a href="#ad9163079c4efc3e9b4e19d94310738cc">[詳解]</a><br /></td></tr>
-<tr class="separator:ad9163079c4efc3e9b4e19d94310738cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13ebd01abf70ece0e5ff92079ab27d1d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a13ebd01abf70ece0e5ff92079ab27d1d">Rad2Deg</a> (float radian)</td></tr>
-<tr class="memdesc:a13ebd01abf70ece0e5ff92079ab27d1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">角度を弧度法から度数法に変換します  <a href="#a13ebd01abf70ece0e5ff92079ab27d1d">[詳解]</a><br /></td></tr>
-<tr class="separator:a13ebd01abf70ece0e5ff92079ab27d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50e2afe1eb224d8a9e3969cf9c6a5a1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a50e2afe1eb224d8a9e3969cf9c6a5a1b">Trace</a> (string message)</td></tr>
-<tr class="memdesc:a50e2afe1eb224d8a9e3969cf9c6a5a1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンソールにログメッセージを出力します。ただし、スマートデバイス実機かつリリースビルドの場合は出力されません  <a href="#a50e2afe1eb224d8a9e3969cf9c6a5a1b">[詳解]</a><br /></td></tr>
+<tr class="memdesc:a50e2afe1eb224d8a9e3969cf9c6a5a1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンソールにログメッセージを出力します。この関数は isDevelop が真の時のみ動作します  <a href="#a50e2afe1eb224d8a9e3969cf9c6a5a1b">[詳解]</a><br /></td></tr>
 <tr class="separator:a50e2afe1eb224d8a9e3969cf9c6a5a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e33a62d7bde193e15b4c6fef48302e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a4e33a62d7bde193e15b4c6fef48302e2">Trace</a> (Vector2 value)</td></tr>
-<tr class="memdesc:a4e33a62d7bde193e15b4c6fef48302e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンソールにベクトル値を出力します。ただし、スマートデバイス実機かつリリースビルドの場合は出力されません  <a href="#a4e33a62d7bde193e15b4c6fef48302e2">[詳解]</a><br /></td></tr>
+<tr class="memdesc:a4e33a62d7bde193e15b4c6fef48302e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンソールにベクトル値を出力します。この関数は isDevelop が真の時のみ動作します  <a href="#a4e33a62d7bde193e15b4c6fef48302e2">[詳解]</a><br /></td></tr>
 <tr class="separator:a4e33a62d7bde193e15b4c6fef48302e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46370de6853a3c16d37a306c08f5ae06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a46370de6853a3c16d37a306c08f5ae06">Trace</a> (IComparable value)</td></tr>
-<tr class="memdesc:a46370de6853a3c16d37a306c08f5ae06"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンソールに数値を出力します。ただし、スマートデバイス実機かつリリースビルドの場合は出力されません  <a href="#a46370de6853a3c16d37a306c08f5ae06">[詳解]</a><br /></td></tr>
+<tr class="memdesc:a46370de6853a3c16d37a306c08f5ae06"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンソールに数値を出力します。この関数は isDevelop が真の時のみ動作します  <a href="#a46370de6853a3c16d37a306c08f5ae06">[詳解]</a><br /></td></tr>
 <tr class="separator:a46370de6853a3c16d37a306c08f5ae06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19fabd65e58748bd624b9203d2694927"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a19fabd65e58748bd624b9203d2694927">Trace</a> (bool value)</td></tr>
-<tr class="memdesc:a19fabd65e58748bd624b9203d2694927"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンソールに真偽値を出力します。ただし、スマートデバイス実機かつリリースビルドの場合は出力されません  <a href="#a19fabd65e58748bd624b9203d2694927">[詳解]</a><br /></td></tr>
+<tr class="memdesc:a19fabd65e58748bd624b9203d2694927"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンソールに真偽値を出力します。この関数は isDevelop が真の時のみ動作します  <a href="#a19fabd65e58748bd624b9203d2694927">[詳解]</a><br /></td></tr>
 <tr class="separator:a19fabd65e58748bd624b9203d2694927"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6111cf7c5128f0b502c79c29977de566"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a6111cf7c5128f0b502c79c29977de566">WriteDataToStorage</a> ()</td></tr>
+<tr class="memdesc:a6111cf7c5128f0b502c79c29977de566"><td class="mdescLeft">&#160;</td><td class="mdescRight">ストレージにセーブデータを書き込みます。この関数はゲーム終了時に自動で実行されます  <a href="#a6111cf7c5128f0b502c79c29977de566">[詳解]</a><br /></td></tr>
+<tr class="separator:a6111cf7c5128f0b502c79c29977de566"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 プロパティ</h2></td></tr>
-<tr class="memitem:a75ddbeab495e2ec555b87e620843bc81"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a75ddbeab495e2ec555b87e620843bc81">frameRate</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a75ddbeab495e2ec555b87e620843bc81"><td class="mdescLeft">&#160;</td><td class="mdescRight">FPS（1秒あたりのフレーム更新回数）  <a href="#a75ddbeab495e2ec555b87e620843bc81">[詳解]</a><br /></td></tr>
-<tr class="separator:a75ddbeab495e2ec555b87e620843bc81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a229cc13ac9ee5567203c26068dcf6675"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a229cc13ac9ee5567203c26068dcf6675">screenWidth</a><code> [get]</code></td></tr>
-<tr class="memdesc:a229cc13ac9ee5567203c26068dcf6675"><td class="mdescLeft">&#160;</td><td class="mdescRight">画面X軸方向のゲーム解像度（幅）  <a href="#a229cc13ac9ee5567203c26068dcf6675">[詳解]</a><br /></td></tr>
-<tr class="separator:a229cc13ac9ee5567203c26068dcf6675"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d759701fe0b65909bf97ed6bc2040fc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a8d759701fe0b65909bf97ed6bc2040fc">screenHeight</a><code> [get]</code></td></tr>
-<tr class="memdesc:a8d759701fe0b65909bf97ed6bc2040fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">画面Y軸方向のゲーム解像度（高さ）  <a href="#a8d759701fe0b65909bf97ed6bc2040fc">[詳解]</a><br /></td></tr>
-<tr class="separator:a8d759701fe0b65909bf97ed6bc2040fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fe05e379a1654d0c7ea10aee12cdfff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a0fe05e379a1654d0c7ea10aee12cdfff">isFullScreen</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a0fe05e379a1654d0c7ea10aee12cdfff"><td class="mdescLeft">&#160;</td><td class="mdescRight">フルスクリーンかどうか  <a href="#a0fe05e379a1654d0c7ea10aee12cdfff">[詳解]</a><br /></td></tr>
-<tr class="separator:a0fe05e379a1654d0c7ea10aee12cdfff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa89a6cda13992b7e4718b14300aa2806"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aa89a6cda13992b7e4718b14300aa2806">isScreenAutoRotation</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:aa89a6cda13992b7e4718b14300aa2806"><td class="mdescLeft">&#160;</td><td class="mdescRight">ゲーム画面が端末の向きに合わせて自動回転するかどうか  <a href="#aa89a6cda13992b7e4718b14300aa2806">[詳解]</a><br /></td></tr>
-<tr class="separator:aa89a6cda13992b7e4718b14300aa2806"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab534ad120006233e13dd04d073035982"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ab534ad120006233e13dd04d073035982">isPortrait</a><code> [get]</code></td></tr>
-<tr class="memdesc:ab534ad120006233e13dd04d073035982"><td class="mdescLeft">&#160;</td><td class="mdescRight">ゲーム画面が縦向きかどうか。この値はゲーム解像度によって自動的に決定されます  <a href="#ab534ad120006233e13dd04d073035982">[詳解]</a><br /></td></tr>
-<tr class="separator:ab534ad120006233e13dd04d073035982"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b36bc20caa0beb3097c32d30b6a852d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a9b36bc20caa0beb3097c32d30b6a852d">isTouch</a><code> [get]</code></td></tr>
-<tr class="memdesc:a9b36bc20caa0beb3097c32d30b6a852d"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチされた状態かどうか  <a href="#a9b36bc20caa0beb3097c32d30b6a852d">[詳解]</a><br /></td></tr>
-<tr class="separator:a9b36bc20caa0beb3097c32d30b6a852d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a8fbcbc08372ee9921bcd316a04af3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a2a8fbcbc08372ee9921bcd316a04af3e">isTouchBegan</a><code> [get]</code></td></tr>
-<tr class="memdesc:a2a8fbcbc08372ee9921bcd316a04af3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチを始めた瞬間かどうか  <a href="#a2a8fbcbc08372ee9921bcd316a04af3e">[詳解]</a><br /></td></tr>
-<tr class="separator:a2a8fbcbc08372ee9921bcd316a04af3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8cce521c430979c9be0d2e40294938c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ae8cce521c430979c9be0d2e40294938c">isTouchEnded</a><code> [get]</code></td></tr>
-<tr class="memdesc:ae8cce521c430979c9be0d2e40294938c"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチを終えた瞬間かどうか  <a href="#ae8cce521c430979c9be0d2e40294938c">[詳解]</a><br /></td></tr>
-<tr class="separator:ae8cce521c430979c9be0d2e40294938c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab9e4ad43be02ace7cfdcf74d68a7a76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aab9e4ad43be02ace7cfdcf74d68a7a76">isHold</a><code> [get]</code></td></tr>
-<tr class="memdesc:aab9e4ad43be02ace7cfdcf74d68a7a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">ホールド（指で触れたまま静止）された状態かどうか  <a href="#aab9e4ad43be02ace7cfdcf74d68a7a76">[詳解]</a><br /></td></tr>
-<tr class="separator:aab9e4ad43be02ace7cfdcf74d68a7a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadb49b93c3d28859703e492e0ac1e0a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aadb49b93c3d28859703e492e0ac1e0a8">isTap</a><code> [get]</code></td></tr>
-<tr class="memdesc:aadb49b93c3d28859703e492e0ac1e0a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">タップ（指で軽く触れる）された瞬間かどうか  <a href="#aadb49b93c3d28859703e492e0ac1e0a8">[詳解]</a><br /></td></tr>
-<tr class="separator:aadb49b93c3d28859703e492e0ac1e0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a83f5c168ff8bb0a661e3c6b4800387"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a4a83f5c168ff8bb0a661e3c6b4800387">isFlick</a><code> [get]</code></td></tr>
-<tr class="memdesc:a4a83f5c168ff8bb0a661e3c6b4800387"><td class="mdescLeft">&#160;</td><td class="mdescRight">フリック（指で軽くはじく）された瞬間かどうか  <a href="#a4a83f5c168ff8bb0a661e3c6b4800387">[詳解]</a><br /></td></tr>
-<tr class="separator:a4a83f5c168ff8bb0a661e3c6b4800387"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a275f0248ae43c7398f9f84fbfd9c2e6c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a275f0248ae43c7398f9f84fbfd9c2e6c">isPinchInOut</a><code> [get]</code></td></tr>
-<tr class="memdesc:a275f0248ae43c7398f9f84fbfd9c2e6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ピンチインまたはピンチアウトされた状態かどうか  <a href="#a275f0248ae43c7398f9f84fbfd9c2e6c">[詳解]</a><br /></td></tr>
-<tr class="separator:a275f0248ae43c7398f9f84fbfd9c2e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a533c17f0cf51e3828c67cac5eda7f19a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a533c17f0cf51e3828c67cac5eda7f19a">isPinchIn</a><code> [get]</code></td></tr>
-<tr class="memdesc:a533c17f0cf51e3828c67cac5eda7f19a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ピンチインされた状態かどうか  <a href="#a533c17f0cf51e3828c67cac5eda7f19a">[詳解]</a><br /></td></tr>
-<tr class="separator:a533c17f0cf51e3828c67cac5eda7f19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f6c322d532d9aecf8ad058408e6efbc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a0f6c322d532d9aecf8ad058408e6efbc">isPinchOut</a><code> [get]</code></td></tr>
-<tr class="memdesc:a0f6c322d532d9aecf8ad058408e6efbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">ピンチアウトされた状態かどうか  <a href="#a0f6c322d532d9aecf8ad058408e6efbc">[詳解]</a><br /></td></tr>
-<tr class="separator:a0f6c322d532d9aecf8ad058408e6efbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4c623100b0324278bcbec5d721c380e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ab4c623100b0324278bcbec5d721c380e">touchX</a><code> [get]</code></td></tr>
-<tr class="memdesc:ab4c623100b0324278bcbec5d721c380e"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチされている座標X。タッチされていないときは、最後にタッチされた座標を返します  <a href="#ab4c623100b0324278bcbec5d721c380e">[詳解]</a><br /></td></tr>
-<tr class="separator:ab4c623100b0324278bcbec5d721c380e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d04b74b9909e9caac5f51e056a3b68a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a2d04b74b9909e9caac5f51e056a3b68a">touchY</a><code> [get]</code></td></tr>
-<tr class="memdesc:a2d04b74b9909e9caac5f51e056a3b68a"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチされている座標Y。タッチされていないときは、最後にタッチされた座標を返します  <a href="#a2d04b74b9909e9caac5f51e056a3b68a">[詳解]</a><br /></td></tr>
-<tr class="separator:a2d04b74b9909e9caac5f51e056a3b68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bfaea4f7e81b2c22eb0c1054d978c23"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a4bfaea4f7e81b2c22eb0c1054d978c23">touchPoint</a><code> [get]</code></td></tr>
-<tr class="memdesc:a4bfaea4f7e81b2c22eb0c1054d978c23"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチされている座標。タッチされていないときは、最後にタッチされた座標を返します  <a href="#a4bfaea4f7e81b2c22eb0c1054d978c23">[詳解]</a><br /></td></tr>
-<tr class="separator:a4bfaea4f7e81b2c22eb0c1054d978c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7577099eab334a596a9cf4e0a0ab520"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#af7577099eab334a596a9cf4e0a0ab520">touchCount</a><code> [get]</code></td></tr>
-<tr class="memdesc:af7577099eab334a596a9cf4e0a0ab520"><td class="mdescLeft">&#160;</td><td class="mdescRight">同時にタッチされている数  <a href="#af7577099eab334a596a9cf4e0a0ab520">[詳解]</a><br /></td></tr>
-<tr class="separator:af7577099eab334a596a9cf4e0a0ab520"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d5c4e64c0dbacacb2cd95dd5434f745"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a7d5c4e64c0dbacacb2cd95dd5434f745">touchTimeLength</a><code> [get]</code></td></tr>
-<tr class="memdesc:a7d5c4e64c0dbacacb2cd95dd5434f745"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチされている時間  <a href="#a7d5c4e64c0dbacacb2cd95dd5434f745">[詳解]</a><br /></td></tr>
-<tr class="separator:a7d5c4e64c0dbacacb2cd95dd5434f745"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac152ec5865043be7a849ba4eb20191dd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ac152ec5865043be7a849ba4eb20191dd">pinchRatio</a><code> [get]</code></td></tr>
-<tr class="memdesc:ac152ec5865043be7a849ba4eb20191dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">ピンチインアウトの拡縮率。ピンチインアウトされていない場合、0を返します  <a href="#ac152ec5865043be7a849ba4eb20191dd">[詳解]</a><br /></td></tr>
-<tr class="separator:ac152ec5865043be7a849ba4eb20191dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad892b668a6460ec57a22cace4e9c1cea"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ad892b668a6460ec57a22cace4e9c1cea">pinchRatioInstant</a><code> [get]</code></td></tr>
-<tr class="memdesc:ad892b668a6460ec57a22cace4e9c1cea"><td class="mdescLeft">&#160;</td><td class="mdescRight">前回フレームを基準としたピンチインアウトの拡縮率。ピンチインアウトされていない場合、0を返します  <a href="#ad892b668a6460ec57a22cace4e9c1cea">[詳解]</a><br /></td></tr>
-<tr class="separator:ad892b668a6460ec57a22cace4e9c1cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef090add7fc9795ac2416c95b65d64cb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aef090add7fc9795ac2416c95b65d64cb">acceX</a><code> [get]</code></td></tr>
 <tr class="memdesc:aef090add7fc9795ac2416c95b65d64cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">加速度センサーで測定されたX軸の加速度  <a href="#aef090add7fc9795ac2416c95b65d64cb">[詳解]</a><br /></td></tr>
 <tr class="separator:aef090add7fc9795ac2416c95b65d64cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -305,9 +317,15 @@ GameCanvas.GameCanvas の継承関係図</div>
 <tr class="memitem:af4552e3511e7dafe7e6fa982a0940ebe"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#af4552e3511e7dafe7e6fa982a0940ebe">acceZ</a><code> [get]</code></td></tr>
 <tr class="memdesc:af4552e3511e7dafe7e6fa982a0940ebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">加速度センサーで測定されたZ軸の加速度  <a href="#af4552e3511e7dafe7e6fa982a0940ebe">[詳解]</a><br /></td></tr>
 <tr class="separator:af4552e3511e7dafe7e6fa982a0940ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e545bac8c149d88606b3aec9252b010"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a7e545bac8c149d88606b3aec9252b010">isGyroEnabled</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a7e545bac8c149d88606b3aec9252b010"><td class="mdescLeft">&#160;</td><td class="mdescRight">ジャイロスコープが有効かどうか  <a href="#a7e545bac8c149d88606b3aec9252b010">[詳解]</a><br /></td></tr>
-<tr class="separator:a7e545bac8c149d88606b3aec9252b010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1dbec3035a278952d79a3149107c271"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aa1dbec3035a278952d79a3149107c271">compass</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa1dbec3035a278952d79a3149107c271"><td class="mdescLeft">&#160;</td><td class="mdescRight">地磁気センサーで測定された磁北極方向への回転角度 (度数法)  <a href="#aa1dbec3035a278952d79a3149107c271">[詳解]</a><br /></td></tr>
+<tr class="separator:aa1dbec3035a278952d79a3149107c271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab41210565134aa195582e826b98c55e0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ab41210565134aa195582e826b98c55e0">deltaTime</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab41210565134aa195582e826b98c55e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">前回のフレームから現在のフレームまでの経過秒数  <a href="#ab41210565134aa195582e826b98c55e0">[詳解]</a><br /></td></tr>
+<tr class="separator:ab41210565134aa195582e826b98c55e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75ddbeab495e2ec555b87e620843bc81"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a75ddbeab495e2ec555b87e620843bc81">frameRate</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a75ddbeab495e2ec555b87e620843bc81"><td class="mdescLeft">&#160;</td><td class="mdescRight">FPS（1秒あたりのフレーム更新回数）  <a href="#a75ddbeab495e2ec555b87e620843bc81">[詳解]</a><br /></td></tr>
+<tr class="separator:a75ddbeab495e2ec555b87e620843bc81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a487b0649b2d68b6caf1141ff528e0652"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a487b0649b2d68b6caf1141ff528e0652">gyroX</a><code> [get]</code></td></tr>
 <tr class="memdesc:a487b0649b2d68b6caf1141ff528e0652"><td class="mdescLeft">&#160;</td><td class="mdescRight">ジャイロスコープで測定されたX軸の回転率  <a href="#a487b0649b2d68b6caf1141ff528e0652">[詳解]</a><br /></td></tr>
 <tr class="separator:a487b0649b2d68b6caf1141ff528e0652"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -317,18 +335,60 @@ GameCanvas.GameCanvas の継承関係図</div>
 <tr class="memitem:a994b298b2a39f0f8eccb331b1274a559"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a994b298b2a39f0f8eccb331b1274a559">gyroZ</a><code> [get]</code></td></tr>
 <tr class="memdesc:a994b298b2a39f0f8eccb331b1274a559"><td class="mdescLeft">&#160;</td><td class="mdescRight">ジャイロスコープで測定されたZ軸の回転率  <a href="#a994b298b2a39f0f8eccb331b1274a559">[詳解]</a><br /></td></tr>
 <tr class="separator:a994b298b2a39f0f8eccb331b1274a559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5c186b12a1ec54a445a53c9b66b3d3d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ab5c186b12a1ec54a445a53c9b66b3d3d">isBackKeyPushed</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab5c186b12a1ec54a445a53c9b66b3d3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">戻るボタンが押されたかどうか (Androidのみ)  <a href="#ab5c186b12a1ec54a445a53c9b66b3d3d">[詳解]</a><br /></td></tr>
+<tr class="separator:ab5c186b12a1ec54a445a53c9b66b3d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac654520b7ca6a1a89fad9ee3709d7b83"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ac654520b7ca6a1a89fad9ee3709d7b83">isCompassEnabled</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ac654520b7ca6a1a89fad9ee3709d7b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">地磁気センサーが有効かどうか  <a href="#ac654520b7ca6a1a89fad9ee3709d7b83">[詳解]</a><br /></td></tr>
 <tr class="separator:ac654520b7ca6a1a89fad9ee3709d7b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1dbec3035a278952d79a3149107c271"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aa1dbec3035a278952d79a3149107c271">compass</a><code> [get]</code></td></tr>
-<tr class="memdesc:aa1dbec3035a278952d79a3149107c271"><td class="mdescLeft">&#160;</td><td class="mdescRight">地磁気センサーで測定された磁北極方向への回転角度 (度数法)  <a href="#aa1dbec3035a278952d79a3149107c271">[詳解]</a><br /></td></tr>
-<tr class="separator:aa1dbec3035a278952d79a3149107c271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0809a4ac54efc38bafa024c95891fd3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ad0809a4ac54efc38bafa024c95891fd3">isDevelop</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad0809a4ac54efc38bafa024c95891fd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバッグ環境あるいはデバッグビルドで実行されている場合に真を返します  <a href="#ad0809a4ac54efc38bafa024c95891fd3">[詳解]</a><br /></td></tr>
+<tr class="separator:ad0809a4ac54efc38bafa024c95891fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a83f5c168ff8bb0a661e3c6b4800387"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a4a83f5c168ff8bb0a661e3c6b4800387">isFlick</a><code> [get]</code></td></tr>
+<tr class="memdesc:a4a83f5c168ff8bb0a661e3c6b4800387"><td class="mdescLeft">&#160;</td><td class="mdescRight">フリック（指で軽くはじく）された瞬間かどうか  <a href="#a4a83f5c168ff8bb0a661e3c6b4800387">[詳解]</a><br /></td></tr>
+<tr class="separator:a4a83f5c168ff8bb0a661e3c6b4800387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe05e379a1654d0c7ea10aee12cdfff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a0fe05e379a1654d0c7ea10aee12cdfff">isFullScreen</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a0fe05e379a1654d0c7ea10aee12cdfff"><td class="mdescLeft">&#160;</td><td class="mdescRight">フルスクリーンかどうか  <a href="#a0fe05e379a1654d0c7ea10aee12cdfff">[詳解]</a><br /></td></tr>
+<tr class="separator:a0fe05e379a1654d0c7ea10aee12cdfff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e545bac8c149d88606b3aec9252b010"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a7e545bac8c149d88606b3aec9252b010">isGyroEnabled</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a7e545bac8c149d88606b3aec9252b010"><td class="mdescLeft">&#160;</td><td class="mdescRight">ジャイロスコープが有効かどうか  <a href="#a7e545bac8c149d88606b3aec9252b010">[詳解]</a><br /></td></tr>
+<tr class="separator:a7e545bac8c149d88606b3aec9252b010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab9e4ad43be02ace7cfdcf74d68a7a76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aab9e4ad43be02ace7cfdcf74d68a7a76">isHold</a><code> [get]</code></td></tr>
+<tr class="memdesc:aab9e4ad43be02ace7cfdcf74d68a7a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">ホールド（指で触れたまま静止）された状態かどうか  <a href="#aab9e4ad43be02ace7cfdcf74d68a7a76">[詳解]</a><br /></td></tr>
+<tr class="separator:aab9e4ad43be02ace7cfdcf74d68a7a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24a05df8b4d96526aff8359965ca33cf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a24a05df8b4d96526aff8359965ca33cf">isLocationEnabled</a><code> [get]</code></td></tr>
 <tr class="memdesc:a24a05df8b4d96526aff8359965ca33cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">位置情報の取得が有効かどうか。有効でない場合、ユーザーに許可を求めるダイアログが表示される場合があります  <a href="#a24a05df8b4d96526aff8359965ca33cf">[詳解]</a><br /></td></tr>
 <tr class="separator:a24a05df8b4d96526aff8359965ca33cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a533c17f0cf51e3828c67cac5eda7f19a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a533c17f0cf51e3828c67cac5eda7f19a">isPinchIn</a><code> [get]</code></td></tr>
+<tr class="memdesc:a533c17f0cf51e3828c67cac5eda7f19a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ピンチインされた状態かどうか  <a href="#a533c17f0cf51e3828c67cac5eda7f19a">[詳解]</a><br /></td></tr>
+<tr class="separator:a533c17f0cf51e3828c67cac5eda7f19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a275f0248ae43c7398f9f84fbfd9c2e6c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a275f0248ae43c7398f9f84fbfd9c2e6c">isPinchInOut</a><code> [get]</code></td></tr>
+<tr class="memdesc:a275f0248ae43c7398f9f84fbfd9c2e6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ピンチインまたはピンチアウトされた状態かどうか  <a href="#a275f0248ae43c7398f9f84fbfd9c2e6c">[詳解]</a><br /></td></tr>
+<tr class="separator:a275f0248ae43c7398f9f84fbfd9c2e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f6c322d532d9aecf8ad058408e6efbc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a0f6c322d532d9aecf8ad058408e6efbc">isPinchOut</a><code> [get]</code></td></tr>
+<tr class="memdesc:a0f6c322d532d9aecf8ad058408e6efbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">ピンチアウトされた状態かどうか  <a href="#a0f6c322d532d9aecf8ad058408e6efbc">[詳解]</a><br /></td></tr>
+<tr class="separator:a0f6c322d532d9aecf8ad058408e6efbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab534ad120006233e13dd04d073035982"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ab534ad120006233e13dd04d073035982">isPortrait</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab534ad120006233e13dd04d073035982"><td class="mdescLeft">&#160;</td><td class="mdescRight">ゲーム画面が縦向きかどうか。この値はゲーム解像度によって自動的に決定されます  <a href="#ab534ad120006233e13dd04d073035982">[詳解]</a><br /></td></tr>
+<tr class="separator:ab534ad120006233e13dd04d073035982"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2130a4a870d76bfedb7a73e4983874e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ae2130a4a870d76bfedb7a73e4983874e">isRunningLocaltionService</a><code> [get]</code></td></tr>
 <tr class="memdesc:ae2130a4a870d76bfedb7a73e4983874e"><td class="mdescLeft">&#160;</td><td class="mdescRight">位置情報の取得が正常に行われているかどうか  <a href="#ae2130a4a870d76bfedb7a73e4983874e">[詳解]</a><br /></td></tr>
 <tr class="separator:ae2130a4a870d76bfedb7a73e4983874e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa89a6cda13992b7e4718b14300aa2806"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aa89a6cda13992b7e4718b14300aa2806">isScreenAutoRotation</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aa89a6cda13992b7e4718b14300aa2806"><td class="mdescLeft">&#160;</td><td class="mdescRight">ゲーム画面が端末の向きに合わせて自動回転するかどうか  <a href="#aa89a6cda13992b7e4718b14300aa2806">[詳解]</a><br /></td></tr>
+<tr class="separator:aa89a6cda13992b7e4718b14300aa2806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadb49b93c3d28859703e492e0ac1e0a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aadb49b93c3d28859703e492e0ac1e0a8">isTap</a><code> [get]</code></td></tr>
+<tr class="memdesc:aadb49b93c3d28859703e492e0ac1e0a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">タップ（指で軽く触れる）された瞬間かどうか  <a href="#aadb49b93c3d28859703e492e0ac1e0a8">[詳解]</a><br /></td></tr>
+<tr class="separator:aadb49b93c3d28859703e492e0ac1e0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b36bc20caa0beb3097c32d30b6a852d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a9b36bc20caa0beb3097c32d30b6a852d">isTouch</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9b36bc20caa0beb3097c32d30b6a852d"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチされた状態かどうか  <a href="#a9b36bc20caa0beb3097c32d30b6a852d">[詳解]</a><br /></td></tr>
+<tr class="separator:a9b36bc20caa0beb3097c32d30b6a852d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a8fbcbc08372ee9921bcd316a04af3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a2a8fbcbc08372ee9921bcd316a04af3e">isTouchBegan</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2a8fbcbc08372ee9921bcd316a04af3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチを始めた瞬間かどうか  <a href="#a2a8fbcbc08372ee9921bcd316a04af3e">[詳解]</a><br /></td></tr>
+<tr class="separator:a2a8fbcbc08372ee9921bcd316a04af3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8cce521c430979c9be0d2e40294938c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ae8cce521c430979c9be0d2e40294938c">isTouchEnded</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae8cce521c430979c9be0d2e40294938c"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチを終えた瞬間かどうか  <a href="#ae8cce521c430979c9be0d2e40294938c">[詳解]</a><br /></td></tr>
+<tr class="separator:ae8cce521c430979c9be0d2e40294938c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d54c93582cd948157b2e9d344a6a56f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a2d54c93582cd948157b2e9d344a6a56f">lastLocationLatitude</a><code> [get]</code></td></tr>
 <tr class="memdesc:a2d54c93582cd948157b2e9d344a6a56f"><td class="mdescLeft">&#160;</td><td class="mdescRight">最後に測定した場所の緯度情報  <a href="#a2d54c93582cd948157b2e9d344a6a56f">[詳解]</a><br /></td></tr>
 <tr class="separator:a2d54c93582cd948157b2e9d344a6a56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -338,9 +398,36 @@ GameCanvas.GameCanvas の継承関係図</div>
 <tr class="memitem:a3abe9fb2ebd993b3807038e141b37a3b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a3abe9fb2ebd993b3807038e141b37a3b">lastLocationTime</a><code> [get]</code></td></tr>
 <tr class="memdesc:a3abe9fb2ebd993b3807038e141b37a3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">最後に位置情報を取得した時間から現在までの経過秒数  <a href="#a3abe9fb2ebd993b3807038e141b37a3b">[詳解]</a><br /></td></tr>
 <tr class="separator:a3abe9fb2ebd993b3807038e141b37a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebdc451f03d8e376805965b907f08b43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aebdc451f03d8e376805965b907f08b43">isDebug</a><code> [get]</code></td></tr>
-<tr class="memdesc:aebdc451f03d8e376805965b907f08b43"><td class="mdescLeft">&#160;</td><td class="mdescRight">デバッグ環境あるいはデバッグビルドで実行されている場合に真を返します  <a href="#aebdc451f03d8e376805965b907f08b43">[詳解]</a><br /></td></tr>
-<tr class="separator:aebdc451f03d8e376805965b907f08b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac152ec5865043be7a849ba4eb20191dd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ac152ec5865043be7a849ba4eb20191dd">pinchRatio</a><code> [get]</code></td></tr>
+<tr class="memdesc:ac152ec5865043be7a849ba4eb20191dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">ピンチインアウトの拡縮率。ピンチインアウトされていない場合、0を返します  <a href="#ac152ec5865043be7a849ba4eb20191dd">[詳解]</a><br /></td></tr>
+<tr class="separator:ac152ec5865043be7a849ba4eb20191dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad892b668a6460ec57a22cace4e9c1cea"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ad892b668a6460ec57a22cace4e9c1cea">pinchRatioInstant</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad892b668a6460ec57a22cace4e9c1cea"><td class="mdescLeft">&#160;</td><td class="mdescRight">前回フレームを基準としたピンチインアウトの拡縮率。ピンチインアウトされていない場合、0を返します  <a href="#ad892b668a6460ec57a22cace4e9c1cea">[詳解]</a><br /></td></tr>
+<tr class="separator:ad892b668a6460ec57a22cace4e9c1cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d759701fe0b65909bf97ed6bc2040fc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a8d759701fe0b65909bf97ed6bc2040fc">screenHeight</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8d759701fe0b65909bf97ed6bc2040fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">画面Y軸方向のゲーム解像度（高さ）  <a href="#a8d759701fe0b65909bf97ed6bc2040fc">[詳解]</a><br /></td></tr>
+<tr class="separator:a8d759701fe0b65909bf97ed6bc2040fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a229cc13ac9ee5567203c26068dcf6675"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a229cc13ac9ee5567203c26068dcf6675">screenWidth</a><code> [get]</code></td></tr>
+<tr class="memdesc:a229cc13ac9ee5567203c26068dcf6675"><td class="mdescLeft">&#160;</td><td class="mdescRight">画面X軸方向のゲーム解像度（幅）  <a href="#a229cc13ac9ee5567203c26068dcf6675">[詳解]</a><br /></td></tr>
+<tr class="separator:a229cc13ac9ee5567203c26068dcf6675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6519a3580593c50b2f18c7f133bc3865"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a6519a3580593c50b2f18c7f133bc3865">time</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6519a3580593c50b2f18c7f133bc3865"><td class="mdescLeft">&#160;</td><td class="mdescRight">ゲームが起動してから現在のフレームまでの経過秒数  <a href="#a6519a3580593c50b2f18c7f133bc3865">[詳解]</a><br /></td></tr>
+<tr class="separator:a6519a3580593c50b2f18c7f133bc3865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7577099eab334a596a9cf4e0a0ab520"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#af7577099eab334a596a9cf4e0a0ab520">touchCount</a><code> [get]</code></td></tr>
+<tr class="memdesc:af7577099eab334a596a9cf4e0a0ab520"><td class="mdescLeft">&#160;</td><td class="mdescRight">同時にタッチされている数  <a href="#af7577099eab334a596a9cf4e0a0ab520">[詳解]</a><br /></td></tr>
+<tr class="separator:af7577099eab334a596a9cf4e0a0ab520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bfaea4f7e81b2c22eb0c1054d978c23"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a4bfaea4f7e81b2c22eb0c1054d978c23">touchPoint</a><code> [get]</code></td></tr>
+<tr class="memdesc:a4bfaea4f7e81b2c22eb0c1054d978c23"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチされている座標。タッチされていないときは、最後にタッチされた座標を返します  <a href="#a4bfaea4f7e81b2c22eb0c1054d978c23">[詳解]</a><br /></td></tr>
+<tr class="separator:a4bfaea4f7e81b2c22eb0c1054d978c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d5c4e64c0dbacacb2cd95dd5434f745"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a7d5c4e64c0dbacacb2cd95dd5434f745">touchTimeLength</a><code> [get]</code></td></tr>
+<tr class="memdesc:a7d5c4e64c0dbacacb2cd95dd5434f745"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチされている時間  <a href="#a7d5c4e64c0dbacacb2cd95dd5434f745">[詳解]</a><br /></td></tr>
+<tr class="separator:a7d5c4e64c0dbacacb2cd95dd5434f745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4c623100b0324278bcbec5d721c380e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ab4c623100b0324278bcbec5d721c380e">touchX</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab4c623100b0324278bcbec5d721c380e"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチされている座標X。タッチされていないときは、最後にタッチされた座標を返します  <a href="#ab4c623100b0324278bcbec5d721c380e">[詳解]</a><br /></td></tr>
+<tr class="separator:ab4c623100b0324278bcbec5d721c380e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d04b74b9909e9caac5f51e056a3b68a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a2d04b74b9909e9caac5f51e056a3b68a">touchY</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2d04b74b9909e9caac5f51e056a3b68a"><td class="mdescLeft">&#160;</td><td class="mdescRight">タッチされている座標Y。タッチされていないときは、最後にタッチされた座標を返します  <a href="#a2d04b74b9909e9caac5f51e056a3b68a">[詳解]</a><br /></td></tr>
+<tr class="separator:a2d04b74b9909e9caac5f51e056a3b68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
 <div class="textblock"><p>GameCanvasの様々な機能を取りまとめたクラス </p>
@@ -379,6 +466,212 @@ GameCanvas.GameCanvas の継承関係図</div>
   </dd>
 </dl>
 <dl class="section return"><dt>戻り値</dt><dd>角度（度数法）</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae3e1e121341e250a62e64302c9ab9e16"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameCanvas.GameCanvas.CheckHitCircle </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>r1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>r2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>2つの円が衝突しているかどうかを調べます </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x1</td><td>円1のX座標</td></tr>
+    <tr><td class="paramname">y1</td><td>円1のY座標</td></tr>
+    <tr><td class="paramname">r1</td><td>円1の半径</td></tr>
+    <tr><td class="paramname">x2</td><td>円2のX座標</td></tr>
+    <tr><td class="paramname">y2</td><td>円2のY座標</td></tr>
+    <tr><td class="paramname">r2</td><td>円2の半径</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>衝突しているかどうか</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab01a4fdaecf3ac44cf57b164e5d2e43c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameCanvas.GameCanvas.CheckHitImage </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>img1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>img2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>2つの画像が衝突しているかどうかを調べます </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">img1</td><td>画像1のID</td></tr>
+    <tr><td class="paramname">x1</td><td>画像1のX座標</td></tr>
+    <tr><td class="paramname">y1</td><td>画像1のY座標</td></tr>
+    <tr><td class="paramname">img2</td><td>画像2のID</td></tr>
+    <tr><td class="paramname">x2</td><td>画像2のX座標</td></tr>
+    <tr><td class="paramname">y2</td><td>画像2のY座標</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>衝突しているかどうか</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab403f742b18ab35dc8792ec1f26c7047"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameCanvas.GameCanvas.CheckHitRect </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>w1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>h1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>w2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>h2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>2つの矩形が衝突しているかどうかを調べます </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x1</td><td>矩形1のX座標</td></tr>
+    <tr><td class="paramname">y1</td><td>矩形1のY座標</td></tr>
+    <tr><td class="paramname">w1</td><td>矩形1の横幅</td></tr>
+    <tr><td class="paramname">h1</td><td>矩形1の縦幅</td></tr>
+    <tr><td class="paramname">x2</td><td>矩形2のX座標</td></tr>
+    <tr><td class="paramname">y2</td><td>矩形2のY座標</td></tr>
+    <tr><td class="paramname">w2</td><td>矩形2の横幅</td></tr>
+    <tr><td class="paramname">h2</td><td>矩形2の縦幅</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>衝突しているかどうか</dd></dl>
 
 </div>
 </div>
@@ -446,6 +739,47 @@ GameCanvas.GameCanvas の継承関係図</div>
   </dd>
 </dl>
 <dl class="section return"><dt>戻り値</dt><dd>角度（弧度法）</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aebfd97be260ea520e72747a1591601f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.DeleteData </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>セーブデータから指定されたキーのデータを削除します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>キー</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae8871ff15a8cfc9de344259b7ac75580"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.DeleteDataAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>セーブデータを空にします </p>
 
 </div>
 </div>
@@ -659,8 +993,8 @@ GameCanvas.GameCanvas の継承関係図</div>
     <tr><td class="paramname">scaleH</td><td>縦の拡縮率</td></tr>
     <tr><td class="paramname">scaleV</td><td>横の拡縮率</td></tr>
     <tr><td class="paramname">angle</td><td>回転角度 (度数法)</td></tr>
-    <tr><td class="paramname">rotationX</td><td>画像の横幅を1としたときの回転の中心位置X</td></tr>
-    <tr><td class="paramname">rotationY</td><td>画像の高さを1としたときの回転の中心位置Y</td></tr>
+    <tr><td class="paramname">rotationX</td><td>画像左上を原点としたときの回転の中心位置X</td></tr>
+    <tr><td class="paramname">rotationY</td><td>画像左上を原点としたときの回転の中心位置Y</td></tr>
   </table>
   </dd>
 </dl>
@@ -778,8 +1112,8 @@ GameCanvas.GameCanvas の継承関係図</div>
     <tr><td class="paramname">scaleH</td><td>縦の拡縮率</td></tr>
     <tr><td class="paramname">scaleV</td><td>横の拡縮率</td></tr>
     <tr><td class="paramname">angle</td><td>回転角度 (度数法)</td></tr>
-    <tr><td class="paramname">rotationX</td><td>画像の横幅を1としたときの回転の中心位置X</td></tr>
-    <tr><td class="paramname">rotationY</td><td>画像の高さを1としたときの回転の中心位置Y</td></tr>
+    <tr><td class="paramname">rotationX</td><td>画像左上を原点としたときの回転の中心位置X</td></tr>
+    <tr><td class="paramname">rotationY</td><td>画像左上を原点としたときの回転の中心位置Y</td></tr>
   </table>
   </dd>
 </dl>
@@ -939,8 +1273,8 @@ GameCanvas.GameCanvas の継承関係図</div>
     <tr><td class="paramname">x</td><td>X座標</td></tr>
     <tr><td class="paramname">y</td><td>Y座標</td></tr>
     <tr><td class="paramname">angle</td><td>回転角度 (度数法)</td></tr>
-    <tr><td class="paramname">rotationX</td><td>画像の横幅を1としたときの回転の中心位置X</td></tr>
-    <tr><td class="paramname">rotationY</td><td>画像の高さを1としたときの回転の中心位置Y</td></tr>
+    <tr><td class="paramname">rotationX</td><td>画像左上を原点としたときの回転の中心位置X</td></tr>
+    <tr><td class="paramname">rotationY</td><td>画像左上を原点としたときの回転の中心位置Y</td></tr>
   </table>
   </dd>
 </dl>
@@ -1009,8 +1343,8 @@ GameCanvas.GameCanvas の継承関係図</div>
     <tr><td class="paramname">width</td><td>横幅</td></tr>
     <tr><td class="paramname">height</td><td>縦幅</td></tr>
     <tr><td class="paramname">angle</td><td>回転角度 (度数法)</td></tr>
-    <tr><td class="paramname">rotationX</td><td>長方形の横幅を1としたときの回転の中心位置X</td></tr>
-    <tr><td class="paramname">rotationY</td><td>長方形の高さを1としたときの回転の中心位置Y</td></tr>
+    <tr><td class="paramname">rotationX</td><td>長方形の左上を原点としたときの回転の中心位置X</td></tr>
+    <tr><td class="paramname">rotationY</td><td>長方形の左上を原点としたときの回転の中心位置Y</td></tr>
   </table>
   </dd>
 </dl>
@@ -1070,6 +1404,23 @@ GameCanvas.GameCanvas の継承関係図</div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a5efc1b2b995e9236589b529e6d7a85db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.ExitApp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>アプリケーションを終了します </p>
 
 </div>
 </div>
@@ -1226,11 +1577,80 @@ GameCanvas.GameCanvas の継承関係図</div>
     <tr><td class="paramname">width</td><td>横幅</td></tr>
     <tr><td class="paramname">height</td><td>縦幅</td></tr>
     <tr><td class="paramname">angle</td><td>回転角度 (度数法)</td></tr>
-    <tr><td class="paramname">rotationX</td><td>長方形の横幅を1としたときの回転の中心位置X</td></tr>
-    <tr><td class="paramname">rotationY</td><td>長方形の高さを1としたときの回転の中心位置Y</td></tr>
+    <tr><td class="paramname">rotationX</td><td>長方形の左上を原点としたときの回転の中心位置X</td></tr>
+    <tr><td class="paramname">rotationY</td><td>長方形の左上を原点としたときの回転の中心位置Y</td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a19db9cf3169d02e6a433c8a849cddc55"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameCanvas.GameCanvas.GetDay </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>今日の日付を 1～31 の数値で返します </p>
+<dl class="section return"><dt>戻り値</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae6c50a442be845469f54ade1dacc71f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameCanvas.GameCanvas.GetDayOfWeek </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>今日の曜日を 0～6 の数値で返します。0が日曜日、6が土曜日です </p>
+
+</div>
+</div>
+<a class="anchor" id="a25ae6532c079812e5dcfa39beb3b0235"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string GameCanvas.GameCanvas.GetDayOfWeekKanji </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>今日の曜日を 月火水木金土日 の漢字で返します </p>
+
+</div>
+</div>
+<a class="anchor" id="a1c66758f29e30ce493cdee0ae90a3c79"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameCanvas.GameCanvas.GetHour </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>いま何時かを 0～23 の数値で返します </p>
 
 </div>
 </div>
@@ -1284,6 +1704,150 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
+<a class="anchor" id="a10ad6c227e525861693ea5af28fdc985"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameCanvas.GameCanvas.GetIsKeyPress </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したキーが押されているかどうか。この関数は isDevelop が真の時のみ動作します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>調べたいキー</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>押されているかどうか</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8b373b7e926e4fe300307b73026d8295"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameCanvas.GameCanvas.GetIsKeyPushed </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したキーが押された瞬間かどうか。この関数は isDevelop が真の時のみ動作します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>調べたいキー</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>押された瞬間かどうか</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a34b7af40e69416f17915d167be2965de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameCanvas.GameCanvas.GetIsKeyReleased </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したキーが離された瞬間かどうか。この関数は isDevelop が真の時のみ動作します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>調べたいキー</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>離された瞬間かどうか</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7b52407356f188cc4299865aa11f1535"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameCanvas.GameCanvas.GetMilliSecond </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>いま何ミリ秒かを 0～999 で返します </p>
+<dl class="section return"><dt>戻り値</dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9e815a258ce84d4d2240fa68d71a7f1d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameCanvas.GameCanvas.GetMinute </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>いま何分かを 0～59 の数値で返します </p>
+
+</div>
+</div>
+<a class="anchor" id="a382474fbf505b2a97719ee671870543d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameCanvas.GameCanvas.GetMonth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>今日が何月かを 1～12 の数値で返します </p>
+
+</div>
+</div>
+<a class="anchor" id="a2a9d26d6402a463837209b9c8186e38b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameCanvas.GameCanvas.GetSecond </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>いま何秒かを 0～59 の数値で返します </p>
+
+</div>
+</div>
 <a class="anchor" id="a9805b2e927011865d734fc17bbf1c65b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1302,6 +1866,95 @@ GameCanvas.GameCanvas の継承関係図</div>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
     <tr><td class="paramname">fingerId</td><td>fingerId</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab847ef1c566fd74507c08f7fea57e311"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameCanvas.GameCanvas.GetYear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>今日が西暦何年かを 0～9999 の数値で返します </p>
+
+</div>
+</div>
+<a class="anchor" id="afb2dcf234f1f29731c8339a49829a767"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string GameCanvas.GameCanvas.Load </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>セーブデータから文字列を取り出します。存在しなかった場合 null を返します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>キー</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a0648958a59454608d1d6c970b8105ac5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameCanvas.GameCanvas.LoadAsInt </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>セーブデータから整数値を取り出します。存在しなかった場合 0 を返します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>キー</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a97d6e7322ba5ca8fc30d9c57403e6892"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GameCanvas.GameCanvas.LoadAsNumber </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>セーブデータから数値を取り出します。存在しなかった場合 0 を返します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>キー</td></tr>
   </table>
   </dd>
 </dl>
@@ -1330,6 +1983,128 @@ GameCanvas.GameCanvas の継承関係図</div>
   </dd>
 </dl>
 <dl class="section return"><dt>戻り値</dt><dd>角度（度数法）</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aea46ed574f55b091df2dcf8f1a2afd74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.ReadDataByStorage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ストレージからセーブデータを読み取ります。この関数はゲーム起動時に自動で実行されます </p>
+
+</div>
+</div>
+<a class="anchor" id="aa885b7b6c79f82d7b2cbc7ec3799bf3b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.Save </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>セーブデータに文字列を追加します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>キー</td></tr>
+    <tr><td class="paramname">value</td><td>保存する文字列</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae5862b2f0f16d203cd860a0b51e7f233"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.SaveAsInt </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>セーブデータに整数値を追加します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>キー</td></tr>
+    <tr><td class="paramname">value</td><td>保存する整数値</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4c076c6cc8f920d52364741a44feffe5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.SaveAsNumber </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>セーブデータに数値を追加します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>キー</td></tr>
+    <tr><td class="paramname">value</td><td>保存する数値</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1587,7 +2362,7 @@ GameCanvas.GameCanvas の継承関係図</div>
       </table>
 </div><div class="memdoc">
 
-<p>コンソールにログメッセージを出力します。ただし、スマートデバイス実機かつリリースビルドの場合は出力されません </p>
+<p>コンソールにログメッセージを出力します。この関数は isDevelop が真の時のみ動作します </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
     <tr><td class="paramname">message</td><td>ログメッセージ</td></tr>
@@ -1611,7 +2386,7 @@ GameCanvas.GameCanvas の継承関係図</div>
       </table>
 </div><div class="memdoc">
 
-<p>コンソールにベクトル値を出力します。ただし、スマートデバイス実機かつリリースビルドの場合は出力されません </p>
+<p>コンソールにベクトル値を出力します。この関数は isDevelop が真の時のみ動作します </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
     <tr><td class="paramname">value</td><td>ベクトル値</td></tr>
@@ -1635,7 +2410,7 @@ GameCanvas.GameCanvas の継承関係図</div>
       </table>
 </div><div class="memdoc">
 
-<p>コンソールに数値を出力します。ただし、スマートデバイス実機かつリリースビルドの場合は出力されません </p>
+<p>コンソールに数値を出力します。この関数は isDevelop が真の時のみ動作します </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
     <tr><td class="paramname">value</td><td>数値</td></tr>
@@ -1659,13 +2434,30 @@ GameCanvas.GameCanvas の継承関係図</div>
       </table>
 </div><div class="memdoc">
 
-<p>コンソールに真偽値を出力します。ただし、スマートデバイス実機かつリリースビルドの場合は出力されません </p>
+<p>コンソールに真偽値を出力します。この関数は isDevelop が真の時のみ動作します </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
     <tr><td class="paramname">value</td><td>真偽値</td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a6111cf7c5128f0b502c79c29977de566"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.WriteDataToStorage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ストレージにセーブデータを書き込みます。この関数はゲーム終了時に自動で実行されます </p>
 
 </div>
 </div>
@@ -1758,6 +2550,28 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
+<a class="anchor" id="ab41210565134aa195582e826b98c55e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GameCanvas.GameCanvas.deltaTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>前回のフレームから現在のフレームまでの経過秒数 </p>
+
+</div>
+</div>
 <a class="anchor" id="a75ddbeab495e2ec555b87e620843bc81"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1846,6 +2660,28 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
+<a class="anchor" id="ab5c186b12a1ec54a445a53c9b66b3d3d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameCanvas.GameCanvas.isBackKeyPushed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>戻るボタンが押されたかどうか (Androidのみ) </p>
+
+</div>
+</div>
 <a class="anchor" id="ac654520b7ca6a1a89fad9ee3709d7b83"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1868,7 +2704,7 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="aebdc451f03d8e376805965b907f08b43"></a>
+<a class="anchor" id="ad0809a4ac54efc38bafa024c95891fd3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1876,7 +2712,7 @@ GameCanvas.GameCanvas の継承関係図</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool GameCanvas.GameCanvas.isDebug</td>
+          <td class="memname">bool GameCanvas.GameCanvas.isDevelop</td>
         </tr>
       </table>
   </td>
@@ -2371,6 +3207,28 @@ GameCanvas.GameCanvas の継承関係図</div>
 </div><div class="memdoc">
 
 <p>画面X軸方向のゲーム解像度（幅） </p>
+
+</div>
+</div>
+<a class="anchor" id="a6519a3580593c50b2f18c7f133bc3865"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GameCanvas.GameCanvas.time</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ゲームが起動してから現在のフレームまでの経過秒数 </p>
 
 </div>
 </div>

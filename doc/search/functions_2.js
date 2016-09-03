@@ -1,6 +1,8 @@
 var searchData=
 [
   ['deg2rad',['Deg2Rad',['../class_game_canvas_1_1_game_canvas.html#ad9163079c4efc3e9b4e19d94310738cc',1,'GameCanvas::GameCanvas']]],
+  ['deletedata',['DeleteData',['../class_game_canvas_1_1_game_canvas.html#aebfd97be260ea520e72747a1591601f9',1,'GameCanvas::GameCanvas']]],
+  ['deletedataall',['DeleteDataAll',['../class_game_canvas_1_1_game_canvas.html#ae8871ff15a8cfc9de344259b7ac75580',1,'GameCanvas::GameCanvas']]],
   ['draw',['Draw',['../class_game_canvas_1_1_game_base.html#a5f02608e5321ccf91243fc6b35c33983',1,'GameCanvas::GameBase']]],
   ['drawcircle',['DrawCircle',['../class_game_canvas_1_1_game_canvas.html#afbac1de0ab6a36fa1d96b87ce37ef235',1,'GameCanvas::GameCanvas']]],
   ['drawclippedimage',['DrawClippedImage',['../class_game_canvas_1_1_game_canvas.html#a8276974bc4f666214d90de8b34659e1d',1,'GameCanvas::GameCanvas']]],
