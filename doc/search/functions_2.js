@@ -13,5 +13,6 @@ var searchData=
   ['drawrect',['DrawRect',['../class_game_canvas_1_1_game_canvas.html#a2798342e5e7d8f161d80bae8334d7fd1',1,'GameCanvas::GameCanvas']]],
   ['drawrotatedimage',['DrawRotatedImage',['../class_game_canvas_1_1_game_canvas.html#ae0cab199fdff446f5ce8e391a6ecaa23',1,'GameCanvas::GameCanvas']]],
   ['drawrotatedrect',['DrawRotatedRect',['../class_game_canvas_1_1_game_canvas.html#aa45b7e66097c31ac498f701f1b5fb124',1,'GameCanvas::GameCanvas']]],
-  ['drawscaledimage',['DrawScaledImage',['../class_game_canvas_1_1_game_canvas.html#ac38cec5deecbb1e1e6bd7ca292050fff',1,'GameCanvas::GameCanvas']]]
+  ['drawscaledimage',['DrawScaledImage',['../class_game_canvas_1_1_game_canvas.html#ac38cec5deecbb1e1e6bd7ca292050fff',1,'GameCanvas::GameCanvas']]],
+  ['drawstring',['DrawString',['../class_game_canvas_1_1_game_canvas.html#a01b9b2ca9b5907365a5ab176476a52f0',1,'GameCanvas::GameCanvas']]]
 ];
