@@ -16,12 +16,6 @@
   $(document).ready(initResizable);
   $(window).load(resizeHeight);
 </script>
-<link href="search/search.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="search/searchdata.js"></script>
-<script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(document).ready(function() { init_search(); });
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -32,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">GameCanvas for Unity
-   &#160;<span id="projectnumber">0.3.1</span>
+   &#160;<span id="projectnumber">0.3.2</span>
    </div>
   </td>
  </tr>
@@ -41,30 +35,11 @@
 </div>
 <!-- end header part -->
 <!-- 構築: Doxygen 1.8.11 -->
-<script type="text/javascript">
-var searchBox = new SearchBox("searchBox", "search",false,'検索');
-</script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>総合概要</span></a></li>
       <li><a href="namespaces.html"><span>パッケージ</span></a></li>
       <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
-      <li>
-        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <img id="MSearchSelect" src="search/mag_sel.png"
-               onmouseover="return searchBox.OnSearchSelectShow()"
-               onmouseout="return searchBox.OnSearchSelectHide()"
-               alt=""/>
-          <input type="text" id="MSearchField" value="検索" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
-          </span>
-        </div>
-      </li>
     </ul>
   </div>
   <div id="navrow2" class="tabs2">
@@ -90,20 +65,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'検索');
 $(document).ready(function(){initNavTree('class_game_canvas_1_1_game_canvas.html','');});
 </script>
 <div id="doc-content">
-<!-- window showing the filter options -->
-<div id="MSearchSelectWindow"
-     onmouseover="return searchBox.OnSearchSelectShow()"
-     onmouseout="return searchBox.OnSearchSelectHide()"
-     onkeydown="return searchBox.OnSearchSelectKey(event)">
-</div>
-
-<!-- iframe showing the search results (closed by default) -->
-<div id="MSearchResultsWindow">
-<iframe src="javascript:void(0)" frameborder="0" 
-        name="MSearchResults" id="MSearchResults">
-</iframe>
-</div>
-
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">公開メンバ関数</a> &#124;
@@ -224,6 +185,15 @@ GameCanvas.GameCanvas の継承関係図</div>
 <tr class="memitem:abf29f92631db1bab9c77ed665645b1ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#abf29f92631db1bab9c77ed665645b1ca">StopLocationService</a> ()</td></tr>
 <tr class="memdesc:abf29f92631db1bab9c77ed665645b1ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">位置情報の測定を終了します  <a href="#abf29f92631db1bab9c77ed665645b1ca">[詳解]</a><br /></td></tr>
 <tr class="separator:abf29f92631db1bab9c77ed665645b1ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01d54964c3342253a8ac082e9945b5b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a01d54964c3342253a8ac082e9945b5b9">OpenWS</a> (string url)</td></tr>
+<tr class="memdesc:a01d54964c3342253a8ac082e9945b5b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">WebSocketサーバーに接続します  <a href="#a01d54964c3342253a8ac082e9945b5b9">[詳解]</a><br /></td></tr>
+<tr class="separator:a01d54964c3342253a8ac082e9945b5b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27581c61f57696148542111a5d8830fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a27581c61f57696148542111a5d8830fe">CloseWS</a> ()</td></tr>
+<tr class="memdesc:a27581c61f57696148542111a5d8830fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">WebSocketサーバーから切断します  <a href="#a27581c61f57696148542111a5d8830fe">[詳解]</a><br /></td></tr>
+<tr class="separator:a27581c61f57696148542111a5d8830fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a368905209a84294991ca13a77a107deb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a368905209a84294991ca13a77a107deb">SendWS</a> (string message)</td></tr>
+<tr class="memdesc:a368905209a84294991ca13a77a107deb"><td class="mdescLeft">&#160;</td><td class="mdescRight">WebSocketサーバーにメッセージを送信します  <a href="#a368905209a84294991ca13a77a107deb">[詳解]</a><br /></td></tr>
+<tr class="separator:a368905209a84294991ca13a77a107deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0648958a59454608d1d6c970b8105ac5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a0648958a59454608d1d6c970b8105ac5">LoadAsInt</a> (string key)</td></tr>
 <tr class="memdesc:a0648958a59454608d1d6c970b8105ac5"><td class="mdescLeft">&#160;</td><td class="mdescRight">セーブデータから整数値を取り出します。存在しなかった場合 0 を返します  <a href="#a0648958a59454608d1d6c970b8105ac5">[詳解]</a><br /></td></tr>
 <tr class="separator:a0648958a59454608d1d6c970b8105ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -461,6 +431,21 @@ GameCanvas.GameCanvas の継承関係図</div>
 <tr class="memitem:ab5c186b12a1ec54a445a53c9b66b3d3d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ab5c186b12a1ec54a445a53c9b66b3d3d">isBackKeyPushed</a><code> [get]</code></td></tr>
 <tr class="memdesc:ab5c186b12a1ec54a445a53c9b66b3d3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">戻るボタンが押されたかどうか (Androidのみ)  <a href="#ab5c186b12a1ec54a445a53c9b66b3d3d">[詳解]</a><br /></td></tr>
 <tr class="separator:ab5c186b12a1ec54a445a53c9b66b3d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c30ed37df46a9ab7b5d74576c5fc076"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_canvas_1_1_event.html">Event</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a2c30ed37df46a9ab7b5d74576c5fc076">onOpenWS</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2c30ed37df46a9ab7b5d74576c5fc076"><td class="mdescLeft">&#160;</td><td class="mdescRight">WebSocketの接続イベント  <a href="#a2c30ed37df46a9ab7b5d74576c5fc076">[詳解]</a><br /></td></tr>
+<tr class="separator:a2c30ed37df46a9ab7b5d74576c5fc076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf6a320eea18b9a85cc2e7ac19b83282"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_canvas_1_1_message_event.html">MessageEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#abf6a320eea18b9a85cc2e7ac19b83282">onMessageWS</a><code> [get]</code></td></tr>
+<tr class="memdesc:abf6a320eea18b9a85cc2e7ac19b83282"><td class="mdescLeft">&#160;</td><td class="mdescRight">WebSocketのメッセージ受信イベント。引数にメッセージが渡されます。文字列以外のメッセージを受信すると null が渡されます  <a href="#abf6a320eea18b9a85cc2e7ac19b83282">[詳解]</a><br /></td></tr>
+<tr class="separator:abf6a320eea18b9a85cc2e7ac19b83282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a827aec0ec85a954495cbb20a2295472a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_canvas_1_1_message_event.html">MessageEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a827aec0ec85a954495cbb20a2295472a">onErrorWS</a><code> [get]</code></td></tr>
+<tr class="memdesc:a827aec0ec85a954495cbb20a2295472a"><td class="mdescLeft">&#160;</td><td class="mdescRight">WebSocketのエラーイベント。引数にエラーメッセージが渡されます  <a href="#a827aec0ec85a954495cbb20a2295472a">[詳解]</a><br /></td></tr>
+<tr class="separator:a827aec0ec85a954495cbb20a2295472a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fcdd0ca5b047f5e252cca9e884c842b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_game_canvas_1_1_event.html">Event</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a2fcdd0ca5b047f5e252cca9e884c842b">onCloseWS</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2fcdd0ca5b047f5e252cca9e884c842b"><td class="mdescLeft">&#160;</td><td class="mdescRight">WebSocketの切断イベント  <a href="#a2fcdd0ca5b047f5e252cca9e884c842b">[詳解]</a><br /></td></tr>
+<tr class="separator:a2fcdd0ca5b047f5e252cca9e884c842b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f74d654d27365fe76890d8e8a214ee2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a3f74d654d27365fe76890d8e8a214ee2">isConnectingWS</a><code> [get]</code></td></tr>
+<tr class="memdesc:a3f74d654d27365fe76890d8e8a214ee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">WebSocketがサーバーと接続状態にあるかどうか  <a href="#a3f74d654d27365fe76890d8e8a214ee2">[詳解]</a><br /></td></tr>
+<tr class="separator:a3f74d654d27365fe76890d8e8a214ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6519a3580593c50b2f18c7f133bc3865"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a6519a3580593c50b2f18c7f133bc3865">time</a><code> [get]</code></td></tr>
 <tr class="memdesc:a6519a3580593c50b2f18c7f133bc3865"><td class="mdescLeft">&#160;</td><td class="mdescRight">ゲームが起動してから現在のフレームまでの経過秒数  <a href="#a6519a3580593c50b2f18c7f133bc3865">[詳解]</a><br /></td></tr>
 <tr class="separator:a6519a3580593c50b2f18c7f133bc3865"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -779,6 +764,23 @@ GameCanvas.GameCanvas の継承関係図</div>
 </div><div class="memdoc">
 
 <p>画面を白で塗りつぶします </p>
+
+</div>
+</div>
+<a class="anchor" id="a27581c61f57696148542111a5d8830fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.CloseWS </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>WebSocketサーバーから切断します </p>
 
 </div>
 </div>
@@ -2093,6 +2095,30 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
+<a class="anchor" id="a01d54964c3342253a8ac082e9945b5b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.OpenWS </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>url</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>WebSocketサーバーに接続します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a0db168fd3c5e0dc408c30de3921b447b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2310,6 +2336,30 @@ GameCanvas.GameCanvas の継承関係図</div>
   <table class="params">
     <tr><td class="paramname">key</td><td>キー</td></tr>
     <tr><td class="paramname">value</td><td>保存する数値</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a368905209a84294991ca13a77a107deb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.SendWS </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>WebSocketサーバーにメッセージを送信します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>メッセージ</td></tr>
   </table>
   </dd>
 </dl>
@@ -2947,6 +2997,28 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
+<a class="anchor" id="a3f74d654d27365fe76890d8e8a214ee2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameCanvas.GameCanvas.isConnectingWS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>WebSocketがサーバーと接続状態にあるかどうか </p>
+
+</div>
+</div>
 <a class="anchor" id="ad0809a4ac54efc38bafa024c95891fd3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3494,6 +3566,94 @@ GameCanvas.GameCanvas の継承関係図</div>
 </div><div class="memdoc">
 
 <p>ピンチアウトと判定する最小拡大率。1 より大きい値である必要があります </p>
+
+</div>
+</div>
+<a class="anchor" id="a2fcdd0ca5b047f5e252cca9e884c842b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_game_canvas_1_1_event.html">Event</a> GameCanvas.GameCanvas.onCloseWS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>WebSocketの切断イベント </p>
+
+</div>
+</div>
+<a class="anchor" id="a827aec0ec85a954495cbb20a2295472a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_game_canvas_1_1_message_event.html">MessageEvent</a> GameCanvas.GameCanvas.onErrorWS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>WebSocketのエラーイベント。引数にエラーメッセージが渡されます </p>
+
+</div>
+</div>
+<a class="anchor" id="abf6a320eea18b9a85cc2e7ac19b83282"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_game_canvas_1_1_message_event.html">MessageEvent</a> GameCanvas.GameCanvas.onMessageWS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>WebSocketのメッセージ受信イベント。引数にメッセージが渡されます。文字列以外のメッセージを受信すると null が渡されます </p>
+
+</div>
+</div>
+<a class="anchor" id="a2c30ed37df46a9ab7b5d74576c5fc076"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_game_canvas_1_1_event.html">Event</a> GameCanvas.GameCanvas.onOpenWS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>WebSocketの接続イベント </p>
 
 </div>
 </div>

@@ -16,12 +16,6 @@
   $(document).ready(initResizable);
   $(window).load(resizeHeight);
 </script>
-<link href="search/search.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="search/searchdata.js"></script>
-<script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(document).ready(function() { init_search(); });
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -32,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">GameCanvas for Unity
-   &#160;<span id="projectnumber">0.3.1</span>
+   &#160;<span id="projectnumber">0.3.2</span>
    </div>
   </td>
  </tr>
@@ -41,30 +35,11 @@
 </div>
 <!-- end header part -->
 <!-- 構築: Doxygen 1.8.11 -->
-<script type="text/javascript">
-var searchBox = new SearchBox("searchBox", "search",false,'検索');
-</script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>総合概要</span></a></li>
       <li><a href="namespaces.html"><span>パッケージ</span></a></li>
       <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
-      <li>
-        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <img id="MSearchSelect" src="search/mag_sel.png"
-               onmouseover="return searchBox.OnSearchSelectShow()"
-               onmouseout="return searchBox.OnSearchSelectHide()"
-               alt=""/>
-          <input type="text" id="MSearchField" value="検索" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
-          </span>
-        </div>
-      </li>
     </ul>
   </div>
   <div id="navrow2" class="tabs2">
@@ -93,6 +68,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'検索');
       <li><a href="#index_i"><span>i</span></a></li>
       <li><a href="#index_l"><span>l</span></a></li>
       <li><a href="#index_m"><span>m</span></a></li>
+      <li><a href="#index_o"><span>o</span></a></li>
       <li><a href="#index_p"><span>p</span></a></li>
       <li><a href="#index_s"><span>s</span></a></li>
       <li class="current"><a href="#index_t"><span>t</span></a></li>
@@ -113,20 +89,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'検索');
 $(document).ready(function(){initNavTree('functions_prop.html','');});
 </script>
 <div id="doc-content">
-<!-- window showing the filter options -->
-<div id="MSearchSelectWindow"
-     onmouseover="return searchBox.OnSearchSelectShow()"
-     onmouseout="return searchBox.OnSearchSelectHide()"
-     onkeydown="return searchBox.OnSearchSelectKey(event)">
-</div>
-
-<!-- iframe showing the search results (closed by default) -->
-<div id="MSearchResultsWindow">
-<iframe src="javascript:void(0)" frameborder="0" 
-        name="MSearchResults" id="MSearchResults">
-</iframe>
-</div>
-
 <div class="contents">
 &#160;
 
@@ -186,6 +148,9 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 </li>
 <li>isCompassEnabled
 : <a class="el" href="class_game_canvas_1_1_game_canvas.html#ac654520b7ca6a1a89fad9ee3709d7b83">GameCanvas.GameCanvas</a>
+</li>
+<li>isConnectingWS
+: <a class="el" href="class_game_canvas_1_1_game_canvas.html#a3f74d654d27365fe76890d8e8a214ee2">GameCanvas.GameCanvas</a>
 </li>
 <li>isDevelop
 : <a class="el" href="class_game_canvas_1_1_game_canvas.html#ad0809a4ac54efc38bafa024c95891fd3">GameCanvas.GameCanvas</a>
@@ -269,6 +234,22 @@ $(document).ready(function(){initNavTree('functions_prop.html','');});
 </li>
 <li>minPinchOutScale
 : <a class="el" href="class_game_canvas_1_1_game_canvas.html#ac9ac68192ff68934781fa672051fec60">GameCanvas.GameCanvas</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
+<li>onCloseWS
+: <a class="el" href="class_game_canvas_1_1_game_canvas.html#a2fcdd0ca5b047f5e252cca9e884c842b">GameCanvas.GameCanvas</a>
+</li>
+<li>onErrorWS
+: <a class="el" href="class_game_canvas_1_1_game_canvas.html#a827aec0ec85a954495cbb20a2295472a">GameCanvas.GameCanvas</a>
+</li>
+<li>onMessageWS
+: <a class="el" href="class_game_canvas_1_1_game_canvas.html#abf6a320eea18b9a85cc2e7ac19b83282">GameCanvas.GameCanvas</a>
+</li>
+<li>onOpenWS
+: <a class="el" href="class_game_canvas_1_1_game_canvas.html#a2c30ed37df46a9ab7b5d74576c5fc076">GameCanvas.GameCanvas</a>
 </li>
 </ul>
 
