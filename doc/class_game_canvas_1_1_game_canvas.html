@@ -202,9 +202,15 @@ GameCanvas.GameCanvas の継承関係図</div>
 <tr class="memitem:abf29f92631db1bab9c77ed665645b1ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#abf29f92631db1bab9c77ed665645b1ca">StopLocationService</a> ()</td></tr>
 <tr class="memdesc:abf29f92631db1bab9c77ed665645b1ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">位置情報の測定を終了します  <a href="#abf29f92631db1bab9c77ed665645b1ca">[詳解]</a><br /></td></tr>
 <tr class="separator:abf29f92631db1bab9c77ed665645b1ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec0150b638f8004e1fb03716bab545b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a9ec0150b638f8004e1fb03716bab545b">ClearDownloadCache</a> ()</td></tr>
+<tr class="memdesc:a9ec0150b638f8004e1fb03716bab545b"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワークキャッシュをクリアします  <a href="#a9ec0150b638f8004e1fb03716bab545b">[詳解]</a><br /></td></tr>
+<tr class="separator:a9ec0150b638f8004e1fb03716bab545b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7599bc84248765b7a4a228232eb72b87"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a7599bc84248765b7a4a228232eb72b87">GetTextFromNet</a> (string url)</td></tr>
-<tr class="memdesc:a7599bc84248765b7a4a228232eb72b87"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク上のテキストを取得します  <a href="#a7599bc84248765b7a4a228232eb72b87">[詳解]</a><br /></td></tr>
+<tr class="memdesc:a7599bc84248765b7a4a228232eb72b87"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク上のテキストを取得します（同期処理）  <a href="#a7599bc84248765b7a4a228232eb72b87">[詳解]</a><br /></td></tr>
 <tr class="separator:a7599bc84248765b7a4a228232eb72b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3dca4baeaa501d63db9cb34470fb847"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#af3dca4baeaa501d63db9cb34470fb847">GetTextFromNetAsync</a> (string url, Action&lt; string &gt; callback)</td></tr>
+<tr class="memdesc:af3dca4baeaa501d63db9cb34470fb847"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク上のテキストを取得します（非同期処理）  <a href="#af3dca4baeaa501d63db9cb34470fb847">[詳解]</a><br /></td></tr>
+<tr class="separator:af3dca4baeaa501d63db9cb34470fb847"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6b9cac7a832db926074bead032553d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aa6b9cac7a832db926074bead032553d6">DrawImageFromNet</a> (string url, float x, float y)</td></tr>
 <tr class="memdesc:aa6b9cac7a832db926074bead032553d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク上の画像を取得し描画します  <a href="#aa6b9cac7a832db926074bead032553d6">[詳解]</a><br /></td></tr>
 <tr class="separator:aa6b9cac7a832db926074bead032553d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -833,6 +839,25 @@ GameCanvas.GameCanvas の継承関係図</div>
   </dd>
 </dl>
 <dl class="section return"><dt>戻り値</dt><dd>衝突しているかどうか</dd></dl>
+
+</div>
+</div>
+<a id="a9ec0150b638f8004e1fb03716bab545b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ec0150b638f8004e1fb03716bab545b">&sect;&nbsp;</a></span>ClearDownloadCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.ClearDownloadCache </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ネットワークキャッシュをクリアします </p>
 
 </div>
 </div>
@@ -3023,14 +3048,50 @@ GameCanvas.GameCanvas の継承関係図</div>
       </table>
 </div><div class="memdoc">
 
-<p>ネットワーク上のテキストを取得します </p>
+<p>ネットワーク上のテキストを取得します（同期処理） </p>
 <dl class="params"><dt>引数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">url</td><td></td></tr>
+    <tr><td class="paramname">url</td><td>URL</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>戻り値</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="af3dca4baeaa501d63db9cb34470fb847"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3dca4baeaa501d63db9cb34470fb847">&sect;&nbsp;</a></span>GetTextFromNetAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.GetTextFromNetAsync </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; string &gt;&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ネットワーク上のテキストを取得します（非同期処理） </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>URL</td></tr>
+    <tr><td class="paramname">callback</td><td>コールバック</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
