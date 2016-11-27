@@ -3,7 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<meta name="generator" content="Doxygen 1.8.11"/>
+<meta name="generator" content="Doxygen 1.8.12"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>GameCanvas for Unity: GameCanvas.GameCanvas クラス</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -14,7 +15,6 @@
 <script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript">
   $(document).ready(initResizable);
-  $(window).load(resizeHeight);
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
@@ -26,7 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">GameCanvas for Unity
-   &#160;<span id="projectnumber">1.0</span>
+   &#160;<span id="projectnumber">1.1</span>
    </div>
   </td>
  </tr>
@@ -34,22 +34,15 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- 構築: Doxygen 1.8.11 -->
-  <div id="navrow1" class="tabs">
-    <ul class="tablist">
-      <li><a href="index.html"><span>総合概要</span></a></li>
-      <li><a href="namespaces.html"><span>パッケージ</span></a></li>
-      <li class="current"><a href="annotated.html"><span>クラス</span></a></li>
-    </ul>
-  </div>
-  <div id="navrow2" class="tabs2">
-    <ul class="tablist">
-      <li><a href="annotated.html"><span>クラス一覧</span></a></li>
-      <li><a href="classes.html"><span>クラス索引</span></a></li>
-      <li><a href="hierarchy.html"><span>クラス階層</span></a></li>
-      <li><a href="functions.html"><span>クラスメンバ</span></a></li>
-    </ul>
-  </div>
+<!-- 構築: Doxygen 1.8.12 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','検索');
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -152,6 +145,30 @@ GameCanvas.GameCanvas の継承関係図</div>
 <tr class="memitem:a01b9b2ca9b5907365a5ab176476a52f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a01b9b2ca9b5907365a5ab176476a52f0">DrawString</a> (float x, float y, string str)</td></tr>
 <tr class="memdesc:a01b9b2ca9b5907365a5ab176476a52f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列を描画します  <a href="#a01b9b2ca9b5907365a5ab176476a52f0">[詳解]</a><br /></td></tr>
 <tr class="separator:a01b9b2ca9b5907365a5ab176476a52f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc36c26e309d1a9da004e03f519bb56e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#abc36c26e309d1a9da004e03f519bb56e">StartCameraService</a> (bool isFrontFacing=false, int requestedWidth=320, int requestedHeight=240, int requestedFPS=30)</td></tr>
+<tr class="memdesc:abc36c26e309d1a9da004e03f519bb56e"><td class="mdescLeft">&#160;</td><td class="mdescRight">カメラ映像入力を有効にします  <a href="#abc36c26e309d1a9da004e03f519bb56e">[詳解]</a><br /></td></tr>
+<tr class="separator:abc36c26e309d1a9da004e03f519bb56e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3bc08fb7c87b9e817a7577015b4e06e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ac3bc08fb7c87b9e817a7577015b4e06e">StopCameraService</a> ()</td></tr>
+<tr class="memdesc:ac3bc08fb7c87b9e817a7577015b4e06e"><td class="mdescLeft">&#160;</td><td class="mdescRight">カメラ映像入力を無効にします  <a href="#ac3bc08fb7c87b9e817a7577015b4e06e">[詳解]</a><br /></td></tr>
+<tr class="separator:ac3bc08fb7c87b9e817a7577015b4e06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a097edee962056d04e2cfcc4f8ce641dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a097edee962056d04e2cfcc4f8ce641dc">DrawCameraImage</a> (float x, float y)</td></tr>
+<tr class="memdesc:a097edee962056d04e2cfcc4f8ce641dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">カメラ映像を描画します  <a href="#a097edee962056d04e2cfcc4f8ce641dc">[詳解]</a><br /></td></tr>
+<tr class="separator:a097edee962056d04e2cfcc4f8ce641dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a679859e3f41ffa678f9c72100432a65d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a679859e3f41ffa678f9c72100432a65d">DrawClippedCameraImage</a> (float x, float y, float clipTop, float clipRight, float clipBottom, float clipLeft)</td></tr>
+<tr class="memdesc:a679859e3f41ffa678f9c72100432a65d"><td class="mdescLeft">&#160;</td><td class="mdescRight">カメラ映像を一部分を切り取って描画します  <a href="#a679859e3f41ffa678f9c72100432a65d">[詳解]</a><br /></td></tr>
+<tr class="separator:a679859e3f41ffa678f9c72100432a65d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5c6ce8b73c0d4eab80a0c191087cb3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ab5c6ce8b73c0d4eab80a0c191087cb3e">DrawScaledCameraImage</a> (float x, float y, float scaleH, float scaleV)</td></tr>
+<tr class="memdesc:ab5c6ce8b73c0d4eab80a0c191087cb3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">カメラ映像を大きさを変えて描画します  <a href="#ab5c6ce8b73c0d4eab80a0c191087cb3e">[詳解]</a><br /></td></tr>
+<tr class="separator:ab5c6ce8b73c0d4eab80a0c191087cb3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b4f789a4ed28cef216d60b959fad699"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a7b4f789a4ed28cef216d60b959fad699">DrawRotatedCameraImage</a> (float x, float y, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
+<tr class="memdesc:a7b4f789a4ed28cef216d60b959fad699"><td class="mdescLeft">&#160;</td><td class="mdescRight">カメラ映像を回転させて描画します  <a href="#a7b4f789a4ed28cef216d60b959fad699">[詳解]</a><br /></td></tr>
+<tr class="separator:a7b4f789a4ed28cef216d60b959fad699"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42b9da16c223486ec5de99892a7d4b49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a42b9da16c223486ec5de99892a7d4b49">DrawCameraImageSRT</a> (float x, float y, float scaleH, float scaleV, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
+<tr class="memdesc:a42b9da16c223486ec5de99892a7d4b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">カメラ映像を位置・拡縮率・回転角度を指定して描画します  <a href="#a42b9da16c223486ec5de99892a7d4b49">[詳解]</a><br /></td></tr>
+<tr class="separator:a42b9da16c223486ec5de99892a7d4b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c3e10fd0191f2564cdd50d33ed984fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a1c3e10fd0191f2564cdd50d33ed984fc">DrawClippedCameraImageSRT</a> (float x, float y, float clipTop, float clipRight, float clipBottom, float clipLeft, float scaleH, float scaleV, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
+<tr class="memdesc:a1c3e10fd0191f2564cdd50d33ed984fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">カメラ映像の一部分を切り取り、位置・拡縮率・回転角度を指定して描画します  <a href="#a1c3e10fd0191f2564cdd50d33ed984fc">[詳解]</a><br /></td></tr>
+<tr class="separator:a1c3e10fd0191f2564cdd50d33ed984fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cce164e936120e2b79b51472e4ec781"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a3cce164e936120e2b79b51472e4ec781">SetResolution</a> (int width, int height)</td></tr>
 <tr class="memdesc:a3cce164e936120e2b79b51472e4ec781"><td class="mdescLeft">&#160;</td><td class="mdescRight">ゲームの解像度を設定します  <a href="#a3cce164e936120e2b79b51472e4ec781">[詳解]</a><br /></td></tr>
 <tr class="separator:a3cce164e936120e2b79b51472e4ec781"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,6 +202,27 @@ GameCanvas.GameCanvas の継承関係図</div>
 <tr class="memitem:abf29f92631db1bab9c77ed665645b1ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#abf29f92631db1bab9c77ed665645b1ca">StopLocationService</a> ()</td></tr>
 <tr class="memdesc:abf29f92631db1bab9c77ed665645b1ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">位置情報の測定を終了します  <a href="#abf29f92631db1bab9c77ed665645b1ca">[詳解]</a><br /></td></tr>
 <tr class="separator:abf29f92631db1bab9c77ed665645b1ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7599bc84248765b7a4a228232eb72b87"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a7599bc84248765b7a4a228232eb72b87">GetTextFromNet</a> (string url)</td></tr>
+<tr class="memdesc:a7599bc84248765b7a4a228232eb72b87"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク上のテキストを取得します  <a href="#a7599bc84248765b7a4a228232eb72b87">[詳解]</a><br /></td></tr>
+<tr class="separator:a7599bc84248765b7a4a228232eb72b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6b9cac7a832db926074bead032553d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aa6b9cac7a832db926074bead032553d6">DrawImageFromNet</a> (string url, float x, float y)</td></tr>
+<tr class="memdesc:aa6b9cac7a832db926074bead032553d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク上の画像を取得し描画します  <a href="#aa6b9cac7a832db926074bead032553d6">[詳解]</a><br /></td></tr>
+<tr class="separator:aa6b9cac7a832db926074bead032553d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a555a270c0217dede0917c3434c76148e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a555a270c0217dede0917c3434c76148e">DrawClippedImageFromNet</a> (string url, float x, float y, float clipTop, float clipRight, float clipBottom, float clipLeft)</td></tr>
+<tr class="memdesc:a555a270c0217dede0917c3434c76148e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク上の画像を取得し一部分を切り取って描画します  <a href="#a555a270c0217dede0917c3434c76148e">[詳解]</a><br /></td></tr>
+<tr class="separator:a555a270c0217dede0917c3434c76148e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4447841d7c4f4dde21e4cacdfa43b37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ab4447841d7c4f4dde21e4cacdfa43b37">DrawScaledImageFromNet</a> (string url, float x, float y, float scaleH, float scaleV)</td></tr>
+<tr class="memdesc:ab4447841d7c4f4dde21e4cacdfa43b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク上の画像を取得し大きさを変えて描画します  <a href="#ab4447841d7c4f4dde21e4cacdfa43b37">[詳解]</a><br /></td></tr>
+<tr class="separator:ab4447841d7c4f4dde21e4cacdfa43b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b5c3ef09dd0df99a1abf0500a09d5a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a8b5c3ef09dd0df99a1abf0500a09d5a0">DrawRotatedImageFromNet</a> (string url, float x, float y, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
+<tr class="memdesc:a8b5c3ef09dd0df99a1abf0500a09d5a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク上の画像を取得し回転させて描画します  <a href="#a8b5c3ef09dd0df99a1abf0500a09d5a0">[詳解]</a><br /></td></tr>
+<tr class="separator:a8b5c3ef09dd0df99a1abf0500a09d5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8d5d8834f1a47367d6e9ef94d0bf5b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ab8d5d8834f1a47367d6e9ef94d0bf5b7">DrawImageSRTFromNet</a> (string url, float x, float y, float scaleH, float scaleV, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
+<tr class="memdesc:ab8d5d8834f1a47367d6e9ef94d0bf5b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク上の画像を取得し位置・拡縮率・回転角度を指定して描画します  <a href="#ab8d5d8834f1a47367d6e9ef94d0bf5b7">[詳解]</a><br /></td></tr>
+<tr class="separator:ab8d5d8834f1a47367d6e9ef94d0bf5b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36139dd6fedfd9a2d8c28b7e45feb7ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a36139dd6fedfd9a2d8c28b7e45feb7ea">DrawClippedImageSRTFromNet</a> (string url, float x, float y, float clipTop, float clipRight, float clipBottom, float clipLeft, float scaleH, float scaleV, float angle, float rotationX=0f, float rotationY=0f)</td></tr>
+<tr class="memdesc:a36139dd6fedfd9a2d8c28b7e45feb7ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">ネットワーク上の画像取得し、一部分を切り取りながら位置・拡縮率・回転角度を指定して描画します  <a href="#a36139dd6fedfd9a2d8c28b7e45feb7ea">[詳解]</a><br /></td></tr>
+<tr class="separator:a36139dd6fedfd9a2d8c28b7e45feb7ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ebed2768139dd3c74a297af33b56d70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a0ebed2768139dd3c74a297af33b56d70">OpenWS</a> (string url, Function onOpen=null, MessageFunction onMessage=null, Function onClose=null, MessageFunction onError=null)</td></tr>
 <tr class="memdesc:a0ebed2768139dd3c74a297af33b56d70"><td class="mdescLeft">&#160;</td><td class="mdescRight">WebSocketサーバーに接続します  <a href="#a0ebed2768139dd3c74a297af33b56d70">[詳解]</a><br /></td></tr>
 <tr class="separator:a0ebed2768139dd3c74a297af33b56d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -323,6 +361,12 @@ GameCanvas.GameCanvas の継承関係図</div>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 プロパティ</h2></td></tr>
+<tr class="memitem:a529bf1d0c45a4456ef29ceb4cabc832c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a529bf1d0c45a4456ef29ceb4cabc832c">cameraImageWidth</a><code> [get]</code></td></tr>
+<tr class="memdesc:a529bf1d0c45a4456ef29ceb4cabc832c"><td class="mdescLeft">&#160;</td><td class="mdescRight">カメラ映像の画素数（横幅）  <a href="#a529bf1d0c45a4456ef29ceb4cabc832c">[詳解]</a><br /></td></tr>
+<tr class="separator:a529bf1d0c45a4456ef29ceb4cabc832c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec935b1ae9c3bc9bbceca431926bfc73"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#aec935b1ae9c3bc9bbceca431926bfc73">cameraImageHeight</a><code> [get]</code></td></tr>
+<tr class="memdesc:aec935b1ae9c3bc9bbceca431926bfc73"><td class="mdescLeft">&#160;</td><td class="mdescRight">カメラ映像の画素数（高さ）  <a href="#aec935b1ae9c3bc9bbceca431926bfc73">[詳解]</a><br /></td></tr>
+<tr class="separator:aec935b1ae9c3bc9bbceca431926bfc73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75ddbeab495e2ec555b87e620843bc81"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#a75ddbeab495e2ec555b87e620843bc81">frameRate</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a75ddbeab495e2ec555b87e620843bc81"><td class="mdescLeft">&#160;</td><td class="mdescRight">FPS（1秒あたりのフレーム更新回数）  <a href="#a75ddbeab495e2ec555b87e620843bc81">[詳解]</a><br /></td></tr>
 <tr class="separator:a75ddbeab495e2ec555b87e620843bc81"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -467,12 +511,32 @@ GameCanvas.GameCanvas の継承関係図</div>
 <tr class="memitem:ab2afba71733f4830cf010ef1dda1f501"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_game_canvas.html#ab2afba71733f4830cf010ef1dda1f501">isLoaded</a><code> [get]</code></td></tr>
 <tr class="memdesc:ab2afba71733f4830cf010ef1dda1f501"><td class="mdescLeft">&#160;</td><td class="mdescRight">画像・音声の読み込みが終わっているかどうか  <a href="#ab2afba71733f4830cf010ef1dda1f501">[詳解]</a><br /></td></tr>
 <tr class="separator:ab2afba71733f4830cf010ef1dda1f501"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_game_canvas_1_1_singleton_mono_behaviour"><td colspan="2" onclick="javascript:toggleInherit('properties_class_game_canvas_1_1_singleton_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_game_canvas_1_1_singleton_mono_behaviour.html">GameCanvas.SingletonMonoBehaviour&lt; GameCanvas &gt;</a> に属する継承プロパティ</td></tr>
+<tr class="memitem:adb0af022286371db9eea056b925030ac inherit properties_class_game_canvas_1_1_singleton_mono_behaviour"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_singleton_mono_behaviour.html#adb0af022286371db9eea056b925030ac">Instance</a><code> [get]</code></td></tr>
+<tr class="memdesc:adb0af022286371db9eea056b925030ac inherit properties_class_game_canvas_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">シングルトンインスタンス  <a href="class_game_canvas_1_1_singleton_mono_behaviour.html#adb0af022286371db9eea056b925030ac">[詳解]</a><br /></td></tr>
+<tr class="separator:adb0af022286371db9eea056b925030ac inherit properties_class_game_canvas_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+その他の継承メンバ</h2></td></tr>
+<tr class="inherit_header pro_methods_class_game_canvas_1_1_singleton_mono_behaviour"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_game_canvas_1_1_singleton_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_game_canvas_1_1_singleton_mono_behaviour.html">GameCanvas.SingletonMonoBehaviour&lt; GameCanvas &gt;</a> に属する継承限定公開メンバ関数</td></tr>
+<tr class="memitem:a96cfda27f52fc828b3681d0c4eda7f06 inherit pro_methods_class_game_canvas_1_1_singleton_mono_behaviour"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_singleton_mono_behaviour.html#a96cfda27f52fc828b3681d0c4eda7f06">Awake</a> ()</td></tr>
+<tr class="memdesc:a96cfda27f52fc828b3681d0c4eda7f06 inherit pro_methods_class_game_canvas_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成処理  <a href="class_game_canvas_1_1_singleton_mono_behaviour.html#a96cfda27f52fc828b3681d0c4eda7f06">[詳解]</a><br /></td></tr>
+<tr class="separator:a96cfda27f52fc828b3681d0c4eda7f06 inherit pro_methods_class_game_canvas_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada1ae6688fa73679d288b1f1a0449af5 inherit pro_methods_class_game_canvas_1_1_singleton_mono_behaviour"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_singleton_mono_behaviour.html#ada1ae6688fa73679d288b1f1a0449af5">Validate</a> ()</td></tr>
+<tr class="memdesc:ada1ae6688fa73679d288b1f1a0449af5 inherit pro_methods_class_game_canvas_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">自身がシングルトンインスタンスかどうかを検証する。既にインスタンスがある場合は即時破棄される  <a href="class_game_canvas_1_1_singleton_mono_behaviour.html#ada1ae6688fa73679d288b1f1a0449af5">[詳解]</a><br /></td></tr>
+<tr class="separator:ada1ae6688fa73679d288b1f1a0449af5 inherit pro_methods_class_game_canvas_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_attribs_class_game_canvas_1_1_singleton_mono_behaviour"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_class_game_canvas_1_1_singleton_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="class_game_canvas_1_1_singleton_mono_behaviour.html">GameCanvas.SingletonMonoBehaviour&lt; GameCanvas &gt;</a> に属する継承静的限定公開変数類</td></tr>
+<tr class="memitem:a2bb30a609f9c950638a625bf91e1ec54 inherit pro_static_attribs_class_game_canvas_1_1_singleton_mono_behaviour"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_canvas_1_1_singleton_mono_behaviour.html#a2bb30a609f9c950638a625bf91e1ec54">instance</a></td></tr>
+<tr class="memdesc:a2bb30a609f9c950638a625bf91e1ec54 inherit pro_static_attribs_class_game_canvas_1_1_singleton_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">シングルトンインスタンス  <a href="class_game_canvas_1_1_singleton_mono_behaviour.html#a2bb30a609f9c950638a625bf91e1ec54">[詳解]</a><br /></td></tr>
+<tr class="separator:a2bb30a609f9c950638a625bf91e1ec54 inherit pro_static_attribs_class_game_canvas_1_1_singleton_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
 <div class="textblock"><p>GameCanvasの様々な機能を取りまとめたクラス </p>
 <p>&lt;author&gt; 2010 kuro (shift→sega) ※Java版 2010 fujieda (shift→ntt) ※Java版 2016 seibe (shift→nintendo) ※Unity版 &lt;/author&gt; </p>
 </div><h2 class="groupheader">メソッド詳解</h2>
-<a class="anchor" id="a15b2800d7b69bd04b43494f561df0e04"></a>
+<a id="a15b2800d7b69bd04b43494f561df0e04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15b2800d7b69bd04b43494f561df0e04">&sect;&nbsp;</a></span>Atan2()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -508,7 +572,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a1e46069fa4ef1410cc0ecae3731cff07"></a>
+<a id="a1e46069fa4ef1410cc0ecae3731cff07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e46069fa4ef1410cc0ecae3731cff07">&sect;&nbsp;</a></span>ChangeBGMVolume()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -532,7 +598,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a1ec4fc429198653c6d8e776b02dba92f"></a>
+<a id="a1ec4fc429198653c6d8e776b02dba92f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ec4fc429198653c6d8e776b02dba92f">&sect;&nbsp;</a></span>ChangeSEVolume()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -556,7 +624,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ae3e1e121341e250a62e64302c9ab9e16"></a>
+<a id="ae3e1e121341e250a62e64302c9ab9e16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3e1e121341e250a62e64302c9ab9e16">&sect;&nbsp;</a></span>CheckHitCircle()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -620,7 +690,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ab01a4fdaecf3ac44cf57b164e5d2e43c"></a>
+<a id="ab01a4fdaecf3ac44cf57b164e5d2e43c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab01a4fdaecf3ac44cf57b164e5d2e43c">&sect;&nbsp;</a></span>CheckHitImage()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -684,7 +756,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ab403f742b18ab35dc8792ec1f26c7047"></a>
+<a id="ab403f742b18ab35dc8792ec1f26c7047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab403f742b18ab35dc8792ec1f26c7047">&sect;&nbsp;</a></span>CheckHitRect()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -762,7 +836,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="af804c97ce66ec031b80f8965c766d287"></a>
+<a id="af804c97ce66ec031b80f8965c766d287"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af804c97ce66ec031b80f8965c766d287">&sect;&nbsp;</a></span>ClearScreen()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -779,7 +855,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a27581c61f57696148542111a5d8830fe"></a>
+<a id="a27581c61f57696148542111a5d8830fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27581c61f57696148542111a5d8830fe">&sect;&nbsp;</a></span>CloseWS()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -796,7 +874,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="af9f3e5d419b30a2c0ec7d97db39eed10"></a>
+<a id="af9f3e5d419b30a2c0ec7d97db39eed10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9f3e5d419b30a2c0ec7d97db39eed10">&sect;&nbsp;</a></span>ConvertFromJson< T >()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -827,7 +907,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a802bfefd88e15b8930891edd29eaa8c7"></a>
+<a id="a802bfefd88e15b8930891edd29eaa8c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a802bfefd88e15b8930891edd29eaa8c7">&sect;&nbsp;</a></span>ConvertToJson()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -852,7 +934,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="af3286dd0b026a72537e3ee6d0ed3b557"></a>
+<a id="af3286dd0b026a72537e3ee6d0ed3b557"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3286dd0b026a72537e3ee6d0ed3b557">&sect;&nbsp;</a></span>Cos()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -877,7 +961,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ad9163079c4efc3e9b4e19d94310738cc"></a>
+<a id="ad9163079c4efc3e9b4e19d94310738cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9163079c4efc3e9b4e19d94310738cc">&sect;&nbsp;</a></span>Deg2Rad()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -902,7 +988,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="aebfd97be260ea520e72747a1591601f9"></a>
+<a id="aebfd97be260ea520e72747a1591601f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebfd97be260ea520e72747a1591601f9">&sect;&nbsp;</a></span>DeleteData()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -926,7 +1014,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ae8871ff15a8cfc9de344259b7ac75580"></a>
+<a id="ae8871ff15a8cfc9de344259b7ac75580"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8871ff15a8cfc9de344259b7ac75580">&sect;&nbsp;</a></span>DeleteDataAll()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -943,7 +1033,119 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="afbac1de0ab6a36fa1d96b87ce37ef235"></a>
+<a id="a097edee962056d04e2cfcc4f8ce641dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a097edee962056d04e2cfcc4f8ce641dc">&sect;&nbsp;</a></span>DrawCameraImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.DrawCameraImage </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>カメラ映像を描画します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>描画する画像のID。img0.png ならば 0 を指定します</td></tr>
+    <tr><td class="paramname">x</td><td>X座標</td></tr>
+    <tr><td class="paramname">y</td><td>Y座標</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a42b9da16c223486ec5de99892a7d4b49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42b9da16c223486ec5de99892a7d4b49">&sect;&nbsp;</a></span>DrawCameraImageSRT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.DrawCameraImageSRT </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleH</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleV</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotationX</em> = <code>0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotationY</em> = <code>0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>カメラ映像を位置・拡縮率・回転角度を指定して描画します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>X座標</td></tr>
+    <tr><td class="paramname">y</td><td>Y座標</td></tr>
+    <tr><td class="paramname">scaleH</td><td>縦の拡縮率</td></tr>
+    <tr><td class="paramname">scaleV</td><td>横の拡縮率</td></tr>
+    <tr><td class="paramname">angle</td><td>回転角度 (度数法)</td></tr>
+    <tr><td class="paramname">rotationX</td><td>画像左上を原点としたときの回転の中心位置X</td></tr>
+    <tr><td class="paramname">rotationY</td><td>画像左上を原点としたときの回転の中心位置Y</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afbac1de0ab6a36fa1d96b87ce37ef235"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbac1de0ab6a36fa1d96b87ce37ef235">&sect;&nbsp;</a></span>DrawCircle()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -986,7 +1188,175 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a8276974bc4f666214d90de8b34659e1d"></a>
+<a id="a679859e3f41ffa678f9c72100432a65d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a679859e3f41ffa678f9c72100432a65d">&sect;&nbsp;</a></span>DrawClippedCameraImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.DrawClippedCameraImage </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipTop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipRight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipBottom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipLeft</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>カメラ映像を一部分を切り取って描画します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>描画する画像のID。img0.png ならば 0 を指定します</td></tr>
+    <tr><td class="paramname">x</td><td>X座標</td></tr>
+    <tr><td class="paramname">y</td><td>Y座標</td></tr>
+    <tr><td class="paramname">clipTop</td><td>画像上側の切り取る縦幅</td></tr>
+    <tr><td class="paramname">clipRight</td><td>画像右側の切り取る横幅</td></tr>
+    <tr><td class="paramname">clipBottom</td><td>画像下側の切り取る縦幅</td></tr>
+    <tr><td class="paramname">clipLeft</td><td>画像左側の切り取る横幅</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1c3e10fd0191f2564cdd50d33ed984fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c3e10fd0191f2564cdd50d33ed984fc">&sect;&nbsp;</a></span>DrawClippedCameraImageSRT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.DrawClippedCameraImageSRT </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipTop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipRight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipBottom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipLeft</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleH</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleV</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotationX</em> = <code>0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotationY</em> = <code>0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>カメラ映像の一部分を切り取り、位置・拡縮率・回転角度を指定して描画します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>X座標</td></tr>
+    <tr><td class="paramname">y</td><td>Y座標</td></tr>
+    <tr><td class="paramname">clipTop</td><td>画像上側の切り取る縦幅</td></tr>
+    <tr><td class="paramname">clipRight</td><td>画像右側の切り取る横幅</td></tr>
+    <tr><td class="paramname">clipBottom</td><td>画像下側の切り取る縦幅</td></tr>
+    <tr><td class="paramname">clipLeft</td><td>画像左側の切り取る横幅</td></tr>
+    <tr><td class="paramname">scaleH</td><td>縦の拡縮率</td></tr>
+    <tr><td class="paramname">scaleV</td><td>横の拡縮率</td></tr>
+    <tr><td class="paramname">angle</td><td>回転角度 (度数法)</td></tr>
+    <tr><td class="paramname">rotationX</td><td>画像左上を原点としたときの回転の中心位置X</td></tr>
+    <tr><td class="paramname">rotationY</td><td>画像左上を原点としたときの回転の中心位置Y</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8276974bc4f666214d90de8b34659e1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8276974bc4f666214d90de8b34659e1d">&sect;&nbsp;</a></span>DrawClippedImage()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1056,7 +1426,81 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="acca6b6bf2bc7bd6214f8ad731222736e"></a>
+<a id="a555a270c0217dede0917c3434c76148e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a555a270c0217dede0917c3434c76148e">&sect;&nbsp;</a></span>DrawClippedImageFromNet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.DrawClippedImageFromNet </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipTop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipRight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipBottom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipLeft</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ネットワーク上の画像を取得し一部分を切り取って描画します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>画像のURL</td></tr>
+    <tr><td class="paramname">x</td><td>X座標</td></tr>
+    <tr><td class="paramname">y</td><td>Y座標</td></tr>
+    <tr><td class="paramname">clipTop</td><td>画像上側の切り取る縦幅</td></tr>
+    <tr><td class="paramname">clipRight</td><td>画像右側の切り取る横幅</td></tr>
+    <tr><td class="paramname">clipBottom</td><td>画像下側の切り取る縦幅</td></tr>
+    <tr><td class="paramname">clipLeft</td><td>画像左側の切り取る横幅</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acca6b6bf2bc7bd6214f8ad731222736e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acca6b6bf2bc7bd6214f8ad731222736e">&sect;&nbsp;</a></span>DrawClippedImageSRT()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1161,7 +1605,116 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a165744f96f93b9d569e7bba2ec2e9459"></a>
+<a id="a36139dd6fedfd9a2d8c28b7e45feb7ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36139dd6fedfd9a2d8c28b7e45feb7ea">&sect;&nbsp;</a></span>DrawClippedImageSRTFromNet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.DrawClippedImageSRTFromNet </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipTop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipRight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipBottom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>clipLeft</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleH</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleV</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotationX</em> = <code>0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotationY</em> = <code>0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ネットワーク上の画像取得し、一部分を切り取りながら位置・拡縮率・回転角度を指定して描画します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>画像のURL</td></tr>
+    <tr><td class="paramname">x</td><td>X座標</td></tr>
+    <tr><td class="paramname">y</td><td>Y座標</td></tr>
+    <tr><td class="paramname">clipTop</td><td>画像上側の切り取る縦幅</td></tr>
+    <tr><td class="paramname">clipRight</td><td>画像右側の切り取る横幅</td></tr>
+    <tr><td class="paramname">clipBottom</td><td>画像下側の切り取る縦幅</td></tr>
+    <tr><td class="paramname">clipLeft</td><td>画像左側の切り取る横幅</td></tr>
+    <tr><td class="paramname">scaleH</td><td>縦の拡縮率</td></tr>
+    <tr><td class="paramname">scaleV</td><td>横の拡縮率</td></tr>
+    <tr><td class="paramname">angle</td><td>回転角度 (度数法)</td></tr>
+    <tr><td class="paramname">rotationX</td><td>画像左上を原点としたときの回転の中心位置X</td></tr>
+    <tr><td class="paramname">rotationY</td><td>画像左上を原点としたときの回転の中心位置Y</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a165744f96f93b9d569e7bba2ec2e9459"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a165744f96f93b9d569e7bba2ec2e9459">&sect;&nbsp;</a></span>DrawImage()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1203,7 +1756,53 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a50c9f2b3ea50154b9b0e48379ee740a4"></a>
+<a id="aa6b9cac7a832db926074bead032553d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6b9cac7a832db926074bead032553d6">&sect;&nbsp;</a></span>DrawImageFromNet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.DrawImageFromNet </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ネットワーク上の画像を取得し描画します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>画像のURL</td></tr>
+    <tr><td class="paramname">x</td><td>X座標</td></tr>
+    <tr><td class="paramname">y</td><td>Y座標</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a50c9f2b3ea50154b9b0e48379ee740a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50c9f2b3ea50154b9b0e48379ee740a4">&sect;&nbsp;</a></span>DrawImageSRT()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1280,7 +1879,88 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a00c1c12a142ed8eed5c64991b73d0b82"></a>
+<a id="ab8d5d8834f1a47367d6e9ef94d0bf5b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8d5d8834f1a47367d6e9ef94d0bf5b7">&sect;&nbsp;</a></span>DrawImageSRTFromNet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.DrawImageSRTFromNet </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleH</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleV</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotationX</em> = <code>0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotationY</em> = <code>0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ネットワーク上の画像を取得し位置・拡縮率・回転角度を指定して描画します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>画像のURL</td></tr>
+    <tr><td class="paramname">x</td><td>X座標</td></tr>
+    <tr><td class="paramname">y</td><td>Y座標</td></tr>
+    <tr><td class="paramname">scaleH</td><td>縦の拡縮率</td></tr>
+    <tr><td class="paramname">scaleV</td><td>横の拡縮率</td></tr>
+    <tr><td class="paramname">angle</td><td>回転角度 (度数法)</td></tr>
+    <tr><td class="paramname">rotationX</td><td>画像左上を原点としたときの回転の中心位置X</td></tr>
+    <tr><td class="paramname">rotationY</td><td>画像左上を原点としたときの回転の中心位置Y</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a00c1c12a142ed8eed5c64991b73d0b82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00c1c12a142ed8eed5c64991b73d0b82">&sect;&nbsp;</a></span>DrawLine()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1329,7 +2009,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a2798342e5e7d8f161d80bae8334d7fd1"></a>
+<a id="a2798342e5e7d8f161d80bae8334d7fd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2798342e5e7d8f161d80bae8334d7fd1">&sect;&nbsp;</a></span>DrawRect()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1378,7 +2060,67 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ae0cab199fdff446f5ce8e391a6ecaa23"></a>
+<a id="a7b4f789a4ed28cef216d60b959fad699"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b4f789a4ed28cef216d60b959fad699">&sect;&nbsp;</a></span>DrawRotatedCameraImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.DrawRotatedCameraImage </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotationX</em> = <code>0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotationY</em> = <code>0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>カメラ映像を回転させて描画します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>X座標</td></tr>
+    <tr><td class="paramname">y</td><td>Y座標</td></tr>
+    <tr><td class="paramname">angle</td><td>回転角度 (度数法)</td></tr>
+    <tr><td class="paramname">rotationX</td><td>画像左上を原点としたときの回転の中心位置X</td></tr>
+    <tr><td class="paramname">rotationY</td><td>画像左上を原点としたときの回転の中心位置Y</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae0cab199fdff446f5ce8e391a6ecaa23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0cab199fdff446f5ce8e391a6ecaa23">&sect;&nbsp;</a></span>DrawRotatedImage()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1441,7 +2183,74 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="aa45b7e66097c31ac498f701f1b5fb124"></a>
+<a id="a8b5c3ef09dd0df99a1abf0500a09d5a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b5c3ef09dd0df99a1abf0500a09d5a0">&sect;&nbsp;</a></span>DrawRotatedImageFromNet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.DrawRotatedImageFromNet </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotationX</em> = <code>0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotationY</em> = <code>0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ネットワーク上の画像を取得し回転させて描画します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>画像のURL</td></tr>
+    <tr><td class="paramname">x</td><td>X座標</td></tr>
+    <tr><td class="paramname">y</td><td>Y座標</td></tr>
+    <tr><td class="paramname">angle</td><td>回転角度 (度数法)</td></tr>
+    <tr><td class="paramname">rotationX</td><td>画像左上を原点としたときの回転の中心位置X</td></tr>
+    <tr><td class="paramname">rotationY</td><td>画像左上を原点としたときの回転の中心位置Y</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa45b7e66097c31ac498f701f1b5fb124"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa45b7e66097c31ac498f701f1b5fb124">&sect;&nbsp;</a></span>DrawRotatedRect()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1511,7 +2320,61 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ac38cec5deecbb1e1e6bd7ca292050fff"></a>
+<a id="ab5c6ce8b73c0d4eab80a0c191087cb3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5c6ce8b73c0d4eab80a0c191087cb3e">&sect;&nbsp;</a></span>DrawScaledCameraImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.DrawScaledCameraImage </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleH</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleV</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>カメラ映像を大きさを変えて描画します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>描画する画像のID。img0.png ならば 0 を指定します</td></tr>
+    <tr><td class="paramname">x</td><td>X座標</td></tr>
+    <tr><td class="paramname">y</td><td>Y座標</td></tr>
+    <tr><td class="paramname">scaleH</td><td>横の拡縮率</td></tr>
+    <tr><td class="paramname">scaleV</td><td>縦の拡縮率</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac38cec5deecbb1e1e6bd7ca292050fff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac38cec5deecbb1e1e6bd7ca292050fff">&sect;&nbsp;</a></span>DrawScaledImage()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1567,7 +2430,67 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a01b9b2ca9b5907365a5ab176476a52f0"></a>
+<a id="ab4447841d7c4f4dde21e4cacdfa43b37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4447841d7c4f4dde21e4cacdfa43b37">&sect;&nbsp;</a></span>DrawScaledImageFromNet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.DrawScaledImageFromNet </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleH</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scaleV</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ネットワーク上の画像を取得し大きさを変えて描画します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>画像のURL</td></tr>
+    <tr><td class="paramname">x</td><td>X座標</td></tr>
+    <tr><td class="paramname">y</td><td>Y座標</td></tr>
+    <tr><td class="paramname">scaleH</td><td>横の拡縮率</td></tr>
+    <tr><td class="paramname">scaleV</td><td>縦の拡縮率</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a01b9b2ca9b5907365a5ab176476a52f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01b9b2ca9b5907365a5ab176476a52f0">&sect;&nbsp;</a></span>DrawString()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1609,7 +2532,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a5efc1b2b995e9236589b529e6d7a85db"></a>
+<a id="a5efc1b2b995e9236589b529e6d7a85db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5efc1b2b995e9236589b529e6d7a85db">&sect;&nbsp;</a></span>ExitApp()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1626,7 +2551,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="af30b0d1765d81b7f6464f9f740e69081"></a>
+<a id="af30b0d1765d81b7f6464f9f740e69081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af30b0d1765d81b7f6464f9f740e69081">&sect;&nbsp;</a></span>FillCircle()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1668,7 +2595,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="acb92d20aa74fb48d85f3b57cd5d8a437"></a>
+<a id="acb92d20aa74fb48d85f3b57cd5d8a437"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb92d20aa74fb48d85f3b57cd5d8a437">&sect;&nbsp;</a></span>FillRect()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1717,7 +2646,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a3a1754a0deb0953c1e7cd02b136535b8"></a>
+<a id="a3a1754a0deb0953c1e7cd02b136535b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a1754a0deb0953c1e7cd02b136535b8">&sect;&nbsp;</a></span>FillRotatedRect()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1787,7 +2718,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a19db9cf3169d02e6a433c8a849cddc55"></a>
+<a id="a19db9cf3169d02e6a433c8a849cddc55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19db9cf3169d02e6a433c8a849cddc55">&sect;&nbsp;</a></span>GetDay()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1805,7 +2738,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ae6c50a442be845469f54ade1dacc71f6"></a>
+<a id="ae6c50a442be845469f54ade1dacc71f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6c50a442be845469f54ade1dacc71f6">&sect;&nbsp;</a></span>GetDayOfWeek()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1822,7 +2757,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a25ae6532c079812e5dcfa39beb3b0235"></a>
+<a id="a25ae6532c079812e5dcfa39beb3b0235"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25ae6532c079812e5dcfa39beb3b0235">&sect;&nbsp;</a></span>GetDayOfWeekKanji()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1839,7 +2776,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a1c66758f29e30ce493cdee0ae90a3c79"></a>
+<a id="a1c66758f29e30ce493cdee0ae90a3c79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c66758f29e30ce493cdee0ae90a3c79">&sect;&nbsp;</a></span>GetHour()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1856,7 +2795,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a011c9bcaeba0512500eb6bb3d5bb31db"></a>
+<a id="a011c9bcaeba0512500eb6bb3d5bb31db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a011c9bcaeba0512500eb6bb3d5bb31db">&sect;&nbsp;</a></span>GetImageHeight()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1881,7 +2822,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="aaf32b350a860feb157310dcc9f12923a"></a>
+<a id="aaf32b350a860feb157310dcc9f12923a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf32b350a860feb157310dcc9f12923a">&sect;&nbsp;</a></span>GetImageWidth()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1906,7 +2849,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a10ad6c227e525861693ea5af28fdc985"></a>
+<a id="a10ad6c227e525861693ea5af28fdc985"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10ad6c227e525861693ea5af28fdc985">&sect;&nbsp;</a></span>GetIsKeyPress()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1931,7 +2876,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a8b373b7e926e4fe300307b73026d8295"></a>
+<a id="a8b373b7e926e4fe300307b73026d8295"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b373b7e926e4fe300307b73026d8295">&sect;&nbsp;</a></span>GetIsKeyPushed()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1956,7 +2903,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a34b7af40e69416f17915d167be2965de"></a>
+<a id="a34b7af40e69416f17915d167be2965de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34b7af40e69416f17915d167be2965de">&sect;&nbsp;</a></span>GetIsKeyReleased()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1981,7 +2930,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a7b52407356f188cc4299865aa11f1535"></a>
+<a id="a7b52407356f188cc4299865aa11f1535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b52407356f188cc4299865aa11f1535">&sect;&nbsp;</a></span>GetMilliSecond()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1999,7 +2950,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a9e815a258ce84d4d2240fa68d71a7f1d"></a>
+<a id="a9e815a258ce84d4d2240fa68d71a7f1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e815a258ce84d4d2240fa68d71a7f1d">&sect;&nbsp;</a></span>GetMinute()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2016,7 +2969,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a382474fbf505b2a97719ee671870543d"></a>
+<a id="a382474fbf505b2a97719ee671870543d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a382474fbf505b2a97719ee671870543d">&sect;&nbsp;</a></span>GetMonth()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2033,7 +2988,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a2a9d26d6402a463837209b9c8186e38b"></a>
+<a id="a2a9d26d6402a463837209b9c8186e38b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a9d26d6402a463837209b9c8186e38b">&sect;&nbsp;</a></span>GetSecond()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2050,7 +3007,36 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a9805b2e927011865d734fc17bbf1c65b"></a>
+<a id="a7599bc84248765b7a4a228232eb72b87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7599bc84248765b7a4a228232eb72b87">&sect;&nbsp;</a></span>GetTextFromNet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string GameCanvas.GameCanvas.GetTextFromNet </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>url</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ネットワーク上のテキストを取得します </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a9805b2e927011865d734fc17bbf1c65b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9805b2e927011865d734fc17bbf1c65b">&sect;&nbsp;</a></span>GetTouchPoint()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2074,7 +3060,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ab847ef1c566fd74507c08f7fea57e311"></a>
+<a id="ab847ef1c566fd74507c08f7fea57e311"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab847ef1c566fd74507c08f7fea57e311">&sect;&nbsp;</a></span>GetYear()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2091,7 +3079,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="afb2dcf234f1f29731c8339a49829a767"></a>
+<a id="afb2dcf234f1f29731c8339a49829a767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb2dcf234f1f29731c8339a49829a767">&sect;&nbsp;</a></span>Load()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2115,7 +3105,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a0648958a59454608d1d6c970b8105ac5"></a>
+<a id="a0648958a59454608d1d6c970b8105ac5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0648958a59454608d1d6c970b8105ac5">&sect;&nbsp;</a></span>LoadAsInt()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2139,7 +3131,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a97d6e7322ba5ca8fc30d9c57403e6892"></a>
+<a id="a97d6e7322ba5ca8fc30d9c57403e6892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97d6e7322ba5ca8fc30d9c57403e6892">&sect;&nbsp;</a></span>LoadAsNumber()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2163,7 +3157,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a0ebed2768139dd3c74a297af33b56d70"></a>
+<a id="a0ebed2768139dd3c74a297af33b56d70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ebed2768139dd3c74a297af33b56d70">&sect;&nbsp;</a></span>OpenWS()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2219,7 +3215,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a0db168fd3c5e0dc408c30de3921b447b"></a>
+<a id="a0db168fd3c5e0dc408c30de3921b447b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0db168fd3c5e0dc408c30de3921b447b">&sect;&nbsp;</a></span>PauseBGM()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2236,7 +3234,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a1ee562459a523907d7f016733af3fad4"></a>
+<a id="a1ee562459a523907d7f016733af3fad4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ee562459a523907d7f016733af3fad4">&sect;&nbsp;</a></span>PlayBGM()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2271,7 +3271,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a2216fc7c52e73b20ccb7278668aaab32"></a>
+<a id="a2216fc7c52e73b20ccb7278668aaab32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2216fc7c52e73b20ccb7278668aaab32">&sect;&nbsp;</a></span>PlaySE()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2295,7 +3297,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a13ebd01abf70ece0e5ff92079ab27d1d"></a>
+<a id="a13ebd01abf70ece0e5ff92079ab27d1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13ebd01abf70ece0e5ff92079ab27d1d">&sect;&nbsp;</a></span>Rad2Deg()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2320,7 +3324,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a27367b1c3671088a6cc2756b9ac6cf47"></a>
+<a id="a27367b1c3671088a6cc2756b9ac6cf47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27367b1c3671088a6cc2756b9ac6cf47">&sect;&nbsp;</a></span>Random() <span class="overload">[1/3]</span></h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2356,7 +3362,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="acc346f73005255c59371c42106030e74"></a>
+<a id="acc346f73005255c59371c42106030e74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc346f73005255c59371c42106030e74">&sect;&nbsp;</a></span>Random() <span class="overload">[2/3]</span></h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2374,7 +3382,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a083e3ee82e39dd08b3023d3887549d77"></a>
+<a id="a083e3ee82e39dd08b3023d3887549d77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a083e3ee82e39dd08b3023d3887549d77">&sect;&nbsp;</a></span>Random() <span class="overload">[3/3]</span></h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2410,7 +3420,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="aea46ed574f55b091df2dcf8f1a2afd74"></a>
+<a id="aea46ed574f55b091df2dcf8f1a2afd74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea46ed574f55b091df2dcf8f1a2afd74">&sect;&nbsp;</a></span>ReadDataByStorage()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2427,7 +3439,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="aa885b7b6c79f82d7b2cbc7ec3799bf3b"></a>
+<a id="aa885b7b6c79f82d7b2cbc7ec3799bf3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa885b7b6c79f82d7b2cbc7ec3799bf3b">&sect;&nbsp;</a></span>Save()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2462,7 +3476,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ae5862b2f0f16d203cd860a0b51e7f233"></a>
+<a id="ae5862b2f0f16d203cd860a0b51e7f233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5862b2f0f16d203cd860a0b51e7f233">&sect;&nbsp;</a></span>SaveAsInt()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2497,7 +3513,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a4c076c6cc8f920d52364741a44feffe5"></a>
+<a id="a4c076c6cc8f920d52364741a44feffe5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c076c6cc8f920d52364741a44feffe5">&sect;&nbsp;</a></span>SaveAsNumber()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2532,7 +3550,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a368905209a84294991ca13a77a107deb"></a>
+<a id="a368905209a84294991ca13a77a107deb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a368905209a84294991ca13a77a107deb">&sect;&nbsp;</a></span>SendWS() <span class="overload">[1/2]</span></h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2556,7 +3576,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a2fe6b7cfd502ded29f8210db89d1488a"></a>
+<a id="a2fe6b7cfd502ded29f8210db89d1488a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fe6b7cfd502ded29f8210db89d1488a">&sect;&nbsp;</a></span>SendWS() <span class="overload">[2/2]</span></h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2580,7 +3602,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a05c60575c2a84708392b11b152f730b1"></a>
+<a id="a05c60575c2a84708392b11b152f730b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05c60575c2a84708392b11b152f730b1">&sect;&nbsp;</a></span>SetColor() <span class="overload">[1/2]</span></h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2604,7 +3628,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ade876f50b5bd9279148586da2e239fb8"></a>
+<a id="ade876f50b5bd9279148586da2e239fb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade876f50b5bd9279148586da2e239fb8">&sect;&nbsp;</a></span>SetColor() <span class="overload">[2/2]</span></h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2653,7 +3679,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a8d7475232c06ed88efce27e00e5c798d"></a>
+<a id="a8d7475232c06ed88efce27e00e5c798d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d7475232c06ed88efce27e00e5c798d">&sect;&nbsp;</a></span>SetColorHSV()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2702,7 +3730,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="aae2ba430a8eb35da31a85265ad2106cf"></a>
+<a id="aae2ba430a8eb35da31a85265ad2106cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae2ba430a8eb35da31a85265ad2106cf">&sect;&nbsp;</a></span>SetFontSize()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2720,7 +3750,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a3329bb67ea71b877cb0ecada7d51e588"></a>
+<a id="a3329bb67ea71b877cb0ecada7d51e588"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3329bb67ea71b877cb0ecada7d51e588">&sect;&nbsp;</a></span>SetLineWidth()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2744,7 +3776,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ab150b1af8a3be94ab1cdd9f76f5a99a0"></a>
+<a id="ab150b1af8a3be94ab1cdd9f76f5a99a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab150b1af8a3be94ab1cdd9f76f5a99a0">&sect;&nbsp;</a></span>SetOnStart()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2768,7 +3802,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a3cce164e936120e2b79b51472e4ec781"></a>
+<a id="a3cce164e936120e2b79b51472e4ec781"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cce164e936120e2b79b51472e4ec781">&sect;&nbsp;</a></span>SetResolution()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2803,7 +3839,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a3cd02d2e8f68ed64caacc71ebcc0f5a6"></a>
+<a id="a3cd02d2e8f68ed64caacc71ebcc0f5a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cd02d2e8f68ed64caacc71ebcc0f5a6">&sect;&nbsp;</a></span>Sin()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2828,7 +3866,60 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a3b7c591431ccea6f60e23a2c7a4a98c0"></a>
+<a id="abc36c26e309d1a9da004e03f519bb56e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc36c26e309d1a9da004e03f519bb56e">&sect;&nbsp;</a></span>StartCameraService()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.StartCameraService </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isFrontFacing</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>requestedWidth</em> = <code>320</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>requestedHeight</em> = <code>240</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>requestedFPS</em> = <code>30</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>カメラ映像入力を有効にします </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isFrontFacing</td><td>前面カメラを優先するかどうか</td></tr>
+    <tr><td class="paramname">requestedWidth</td><td>カメラ映像の要求画素数（幅）</td></tr>
+    <tr><td class="paramname">requestedHeight</td><td>カメラ映像の要求画素数（高さ）</td></tr>
+    <tr><td class="paramname">requestedFPS</td><td>カメラ映像の要求フレームレート</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3b7c591431ccea6f60e23a2c7a4a98c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b7c591431ccea6f60e23a2c7a4a98c0">&sect;&nbsp;</a></span>StartLocationService()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2845,7 +3936,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="aa83c489cd3763c342f5059d92613a2df"></a>
+<a id="aa83c489cd3763c342f5059d92613a2df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa83c489cd3763c342f5059d92613a2df">&sect;&nbsp;</a></span>StopBGM()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2862,7 +3955,28 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="abf29f92631db1bab9c77ed665645b1ca"></a>
+<a id="ac3bc08fb7c87b9e817a7577015b4e06e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3bc08fb7c87b9e817a7577015b4e06e">&sect;&nbsp;</a></span>StopCameraService()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameCanvas.GameCanvas.StopCameraService </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>カメラ映像入力を無効にします </p>
+
+</div>
+</div>
+<a id="abf29f92631db1bab9c77ed665645b1ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf29f92631db1bab9c77ed665645b1ca">&sect;&nbsp;</a></span>StopLocationService()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2879,7 +3993,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a50e2afe1eb224d8a9e3969cf9c6a5a1b"></a>
+<a id="a50e2afe1eb224d8a9e3969cf9c6a5a1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50e2afe1eb224d8a9e3969cf9c6a5a1b">&sect;&nbsp;</a></span>Trace() <span class="overload">[1/4]</span></h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2903,7 +4019,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a4e33a62d7bde193e15b4c6fef48302e2"></a>
+<a id="a4e33a62d7bde193e15b4c6fef48302e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e33a62d7bde193e15b4c6fef48302e2">&sect;&nbsp;</a></span>Trace() <span class="overload">[2/4]</span></h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2927,7 +4045,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a46370de6853a3c16d37a306c08f5ae06"></a>
+<a id="a46370de6853a3c16d37a306c08f5ae06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46370de6853a3c16d37a306c08f5ae06">&sect;&nbsp;</a></span>Trace() <span class="overload">[3/4]</span></h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2951,7 +4071,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a19fabd65e58748bd624b9203d2694927"></a>
+<a id="a19fabd65e58748bd624b9203d2694927"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19fabd65e58748bd624b9203d2694927">&sect;&nbsp;</a></span>Trace() <span class="overload">[4/4]</span></h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2975,7 +4097,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a6111cf7c5128f0b502c79c29977de566"></a>
+<a id="a6111cf7c5128f0b502c79c29977de566"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6111cf7c5128f0b502c79c29977de566">&sect;&nbsp;</a></span>WriteDataToStorage()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2993,7 +4117,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 </div>
 </div>
 <h2 class="groupheader">プロパティ詳解</h2>
-<a class="anchor" id="aef090add7fc9795ac2416c95b65d64cb"></a>
+<a id="aef090add7fc9795ac2416c95b65d64cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef090add7fc9795ac2416c95b65d64cb">&sect;&nbsp;</a></span>acceX</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3015,7 +4141,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="adb01938f0cbadc594953957ac27f01fa"></a>
+<a id="adb01938f0cbadc594953957ac27f01fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb01938f0cbadc594953957ac27f01fa">&sect;&nbsp;</a></span>acceY</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3037,7 +4165,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="af4552e3511e7dafe7e6fa982a0940ebe"></a>
+<a id="af4552e3511e7dafe7e6fa982a0940ebe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4552e3511e7dafe7e6fa982a0940ebe">&sect;&nbsp;</a></span>acceZ</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3059,7 +4189,57 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="aa1dbec3035a278952d79a3149107c271"></a>
+<a id="aec935b1ae9c3bc9bbceca431926bfc73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec935b1ae9c3bc9bbceca431926bfc73">&sect;&nbsp;</a></span>cameraImageHeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameCanvas.GameCanvas.cameraImageHeight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>カメラ映像の画素数（高さ） </p>
+
+</div>
+</div>
+<a id="a529bf1d0c45a4456ef29ceb4cabc832c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a529bf1d0c45a4456ef29ceb4cabc832c">&sect;&nbsp;</a></span>cameraImageWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameCanvas.GameCanvas.cameraImageWidth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>カメラ映像の画素数（横幅） </p>
+
+</div>
+</div>
+<a id="aa1dbec3035a278952d79a3149107c271"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1dbec3035a278952d79a3149107c271">&sect;&nbsp;</a></span>compass</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3081,7 +4261,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ab41210565134aa195582e826b98c55e0"></a>
+<a id="ab41210565134aa195582e826b98c55e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab41210565134aa195582e826b98c55e0">&sect;&nbsp;</a></span>deltaTime</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3103,7 +4285,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a75ddbeab495e2ec555b87e620843bc81"></a>
+<a id="a75ddbeab495e2ec555b87e620843bc81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75ddbeab495e2ec555b87e620843bc81">&sect;&nbsp;</a></span>frameRate</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3125,7 +4309,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a487b0649b2d68b6caf1141ff528e0652"></a>
+<a id="a487b0649b2d68b6caf1141ff528e0652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a487b0649b2d68b6caf1141ff528e0652">&sect;&nbsp;</a></span>gyroX</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3147,7 +4333,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a963fe10a119e494eecfb6fd357af2fb1"></a>
+<a id="a963fe10a119e494eecfb6fd357af2fb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a963fe10a119e494eecfb6fd357af2fb1">&sect;&nbsp;</a></span>gyroY</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3169,7 +4357,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a994b298b2a39f0f8eccb331b1274a559"></a>
+<a id="a994b298b2a39f0f8eccb331b1274a559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a994b298b2a39f0f8eccb331b1274a559">&sect;&nbsp;</a></span>gyroZ</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3191,7 +4381,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ab5c186b12a1ec54a445a53c9b66b3d3d"></a>
+<a id="ab5c186b12a1ec54a445a53c9b66b3d3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5c186b12a1ec54a445a53c9b66b3d3d">&sect;&nbsp;</a></span>isBackKeyPushed</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3213,7 +4405,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ac654520b7ca6a1a89fad9ee3709d7b83"></a>
+<a id="ac654520b7ca6a1a89fad9ee3709d7b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac654520b7ca6a1a89fad9ee3709d7b83">&sect;&nbsp;</a></span>isCompassEnabled</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3235,7 +4429,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ad0809a4ac54efc38bafa024c95891fd3"></a>
+<a id="ad0809a4ac54efc38bafa024c95891fd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0809a4ac54efc38bafa024c95891fd3">&sect;&nbsp;</a></span>isDevelop</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3257,7 +4453,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a4a83f5c168ff8bb0a661e3c6b4800387"></a>
+<a id="a4a83f5c168ff8bb0a661e3c6b4800387"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a83f5c168ff8bb0a661e3c6b4800387">&sect;&nbsp;</a></span>isFlick</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3279,7 +4477,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a0fe05e379a1654d0c7ea10aee12cdfff"></a>
+<a id="a0fe05e379a1654d0c7ea10aee12cdfff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fe05e379a1654d0c7ea10aee12cdfff">&sect;&nbsp;</a></span>isFullScreen</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3301,7 +4501,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a7e545bac8c149d88606b3aec9252b010"></a>
+<a id="a7e545bac8c149d88606b3aec9252b010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e545bac8c149d88606b3aec9252b010">&sect;&nbsp;</a></span>isGyroEnabled</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3323,7 +4525,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="aab9e4ad43be02ace7cfdcf74d68a7a76"></a>
+<a id="aab9e4ad43be02ace7cfdcf74d68a7a76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab9e4ad43be02ace7cfdcf74d68a7a76">&sect;&nbsp;</a></span>isHold</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3345,7 +4549,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ab2afba71733f4830cf010ef1dda1f501"></a>
+<a id="ab2afba71733f4830cf010ef1dda1f501"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2afba71733f4830cf010ef1dda1f501">&sect;&nbsp;</a></span>isLoaded</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3367,7 +4573,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a24a05df8b4d96526aff8359965ca33cf"></a>
+<a id="a24a05df8b4d96526aff8359965ca33cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24a05df8b4d96526aff8359965ca33cf">&sect;&nbsp;</a></span>isLocationEnabled</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3389,7 +4597,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a161f67e2b2e389f1803164944c4f6013"></a>
+<a id="a161f67e2b2e389f1803164944c4f6013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a161f67e2b2e389f1803164944c4f6013">&sect;&nbsp;</a></span>isOpenWS</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3411,7 +4621,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a533c17f0cf51e3828c67cac5eda7f19a"></a>
+<a id="a533c17f0cf51e3828c67cac5eda7f19a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a533c17f0cf51e3828c67cac5eda7f19a">&sect;&nbsp;</a></span>isPinchIn</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3433,7 +4645,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a275f0248ae43c7398f9f84fbfd9c2e6c"></a>
+<a id="a275f0248ae43c7398f9f84fbfd9c2e6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a275f0248ae43c7398f9f84fbfd9c2e6c">&sect;&nbsp;</a></span>isPinchInOut</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3455,7 +4669,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a0f6c322d532d9aecf8ad058408e6efbc"></a>
+<a id="a0f6c322d532d9aecf8ad058408e6efbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f6c322d532d9aecf8ad058408e6efbc">&sect;&nbsp;</a></span>isPinchOut</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3477,7 +4693,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ab534ad120006233e13dd04d073035982"></a>
+<a id="ab534ad120006233e13dd04d073035982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab534ad120006233e13dd04d073035982">&sect;&nbsp;</a></span>isPortrait</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3499,7 +4717,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ae2130a4a870d76bfedb7a73e4983874e"></a>
+<a id="ae2130a4a870d76bfedb7a73e4983874e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2130a4a870d76bfedb7a73e4983874e">&sect;&nbsp;</a></span>isRunningLocaltionService</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3521,7 +4741,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="aa89a6cda13992b7e4718b14300aa2806"></a>
+<a id="aa89a6cda13992b7e4718b14300aa2806"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa89a6cda13992b7e4718b14300aa2806">&sect;&nbsp;</a></span>isScreenAutoRotation</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3543,7 +4765,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="aadb49b93c3d28859703e492e0ac1e0a8"></a>
+<a id="aadb49b93c3d28859703e492e0ac1e0a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadb49b93c3d28859703e492e0ac1e0a8">&sect;&nbsp;</a></span>isTap</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3565,7 +4789,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a9b36bc20caa0beb3097c32d30b6a852d"></a>
+<a id="a9b36bc20caa0beb3097c32d30b6a852d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b36bc20caa0beb3097c32d30b6a852d">&sect;&nbsp;</a></span>isTouch</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3587,7 +4813,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a2a8fbcbc08372ee9921bcd316a04af3e"></a>
+<a id="a2a8fbcbc08372ee9921bcd316a04af3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a8fbcbc08372ee9921bcd316a04af3e">&sect;&nbsp;</a></span>isTouchBegan</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3609,7 +4837,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ae8cce521c430979c9be0d2e40294938c"></a>
+<a id="ae8cce521c430979c9be0d2e40294938c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8cce521c430979c9be0d2e40294938c">&sect;&nbsp;</a></span>isTouchEnded</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3631,7 +4861,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a2d54c93582cd948157b2e9d344a6a56f"></a>
+<a id="a2d54c93582cd948157b2e9d344a6a56f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d54c93582cd948157b2e9d344a6a56f">&sect;&nbsp;</a></span>lastLocationLatitude</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3653,7 +4885,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a802a925f18e8b8069dac50fb4dfb1124"></a>
+<a id="a802a925f18e8b8069dac50fb4dfb1124"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a802a925f18e8b8069dac50fb4dfb1124">&sect;&nbsp;</a></span>lastLocationLongitude</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3675,7 +4909,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a3abe9fb2ebd993b3807038e141b37a3b"></a>
+<a id="a3abe9fb2ebd993b3807038e141b37a3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3abe9fb2ebd993b3807038e141b37a3b">&sect;&nbsp;</a></span>lastLocationTime</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3697,7 +4933,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a4b27f08f360a8dbd9aacc87651ca23be"></a>
+<a id="a4b27f08f360a8dbd9aacc87651ca23be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b27f08f360a8dbd9aacc87651ca23be">&sect;&nbsp;</a></span>maxPinchInScale</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3719,7 +4957,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="abde9f3f3a6901b809f4506f7d96d9a71"></a>
+<a id="abde9f3f3a6901b809f4506f7d96d9a71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abde9f3f3a6901b809f4506f7d96d9a71">&sect;&nbsp;</a></span>maxTapDistance</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3741,7 +4981,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a40a770abaf9f536564993501cf414d4f"></a>
+<a id="a40a770abaf9f536564993501cf414d4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40a770abaf9f536564993501cf414d4f">&sect;&nbsp;</a></span>maxTapTimeLength</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3763,7 +5005,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ad9dc1434fb5bb54fcdbd3cc239592468"></a>
+<a id="ad9dc1434fb5bb54fcdbd3cc239592468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9dc1434fb5bb54fcdbd3cc239592468">&sect;&nbsp;</a></span>minFlickDistance</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3785,7 +5029,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a55173dfb4c71396b0c5e46b4ad49eca9"></a>
+<a id="a55173dfb4c71396b0c5e46b4ad49eca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55173dfb4c71396b0c5e46b4ad49eca9">&sect;&nbsp;</a></span>minHoldTimeLength</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3807,7 +5053,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ac9ac68192ff68934781fa672051fec60"></a>
+<a id="ac9ac68192ff68934781fa672051fec60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9ac68192ff68934781fa672051fec60">&sect;&nbsp;</a></span>minPinchOutScale</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3829,7 +5077,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ac152ec5865043be7a849ba4eb20191dd"></a>
+<a id="ac152ec5865043be7a849ba4eb20191dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac152ec5865043be7a849ba4eb20191dd">&sect;&nbsp;</a></span>pinchRatio</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3851,7 +5101,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ad892b668a6460ec57a22cace4e9c1cea"></a>
+<a id="ad892b668a6460ec57a22cace4e9c1cea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad892b668a6460ec57a22cace4e9c1cea">&sect;&nbsp;</a></span>pinchRatioInstant</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3873,7 +5125,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a8d759701fe0b65909bf97ed6bc2040fc"></a>
+<a id="a8d759701fe0b65909bf97ed6bc2040fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d759701fe0b65909bf97ed6bc2040fc">&sect;&nbsp;</a></span>screenHeight</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3895,7 +5149,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a229cc13ac9ee5567203c26068dcf6675"></a>
+<a id="a229cc13ac9ee5567203c26068dcf6675"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a229cc13ac9ee5567203c26068dcf6675">&sect;&nbsp;</a></span>screenWidth</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3917,7 +5173,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a6519a3580593c50b2f18c7f133bc3865"></a>
+<a id="a6519a3580593c50b2f18c7f133bc3865"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6519a3580593c50b2f18c7f133bc3865">&sect;&nbsp;</a></span>time</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3939,7 +5197,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="af7577099eab334a596a9cf4e0a0ab520"></a>
+<a id="af7577099eab334a596a9cf4e0a0ab520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7577099eab334a596a9cf4e0a0ab520">&sect;&nbsp;</a></span>touchCount</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3961,7 +5221,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a4bfaea4f7e81b2c22eb0c1054d978c23"></a>
+<a id="a4bfaea4f7e81b2c22eb0c1054d978c23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bfaea4f7e81b2c22eb0c1054d978c23">&sect;&nbsp;</a></span>touchPoint</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -3983,7 +5245,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a7d5c4e64c0dbacacb2cd95dd5434f745"></a>
+<a id="a7d5c4e64c0dbacacb2cd95dd5434f745"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d5c4e64c0dbacacb2cd95dd5434f745">&sect;&nbsp;</a></span>touchTimeLength</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4005,7 +5269,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="ab4c623100b0324278bcbec5d721c380e"></a>
+<a id="ab4c623100b0324278bcbec5d721c380e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4c623100b0324278bcbec5d721c380e">&sect;&nbsp;</a></span>touchX</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4027,7 +5293,9 @@ GameCanvas.GameCanvas の継承関係図</div>
 
 </div>
 </div>
-<a class="anchor" id="a2d04b74b9909e9caac5f51e056a3b68a"></a>
+<a id="a2d04b74b9909e9caac5f51e056a3b68a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d04b74b9909e9caac5f51e056a3b68a">&sect;&nbsp;</a></span>touchY</h2>
+
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -4060,7 +5328,7 @@ GameCanvas.GameCanvas の継承関係図</div>
     <li class="navelem"><a class="el" href="namespace_game_canvas.html">GameCanvas</a></li><li class="navelem"><a class="el" href="class_game_canvas_1_1_game_canvas.html">GameCanvas</a></li>
     <li class="footer">構築:
     <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.12 </li>
   </ul>
 </div>
 </body>
